@@ -1,8 +1,6 @@
 # Product Manager OS
 
-Welcome to **Product Manager OS**! An AI-native operating system for product managers that transforms Cursor into your comprehensive PM copilot.
-
-This repository is forked and extensively customized from [jinjin1/Cursor-for-Product-Managers](https://github.com/jinjin1/Cursor-for-Product-Managers), with major reorganization to support a dual-track continuous discovery workflow and personalized PM toolkit structure.
+Welcome to **Product Manager OS**! This repository provides a comprehensive toolkit and framework designed to supercharge your product management workflow using Cursor as an AI-native PM copilot. Forked from [jinjin1/Cursor-for-Product-Managers](https://github.com/jinjin1/Cursor-for-Product-Managers) and inspired by the [Maven course on AI-native PMs](https://maven.com/p/0a96cb/cursor-isn-t-just-for-coding-how-ai-native-p-ms-work), the [AI Dev Tasks](https://github.com/snarktank/ai-dev-tasks/tree/main) structured workflow approach, and [Lee Robinson's YouTube video](https://www.youtube.com/watch?v=8QN23ZThdRY), this toolkit transforms Cursor from a coding tool into a powerful product thinking, strategic decision-making, and document creation platform.
 
 Stop wrestling with fragmented product management tools and start building a unified, AI-powered PM workspace that grows smarter with every conversation!
 
