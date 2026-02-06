@@ -3,6 +3,7 @@ title: Product Manager OS - Vision and Core Concepts
 category: Product Vision
 tags: [PM, AI-agents, productivity, workflow, automation, side-project]
 created_date: 04-02-2026
+updated_date: 06-02-2026
 status: In Development
 related_to: Vibe code productivity tooling goal
 ---
@@ -12,6 +13,133 @@ related_to: Vibe code productivity tooling goal
 ## Overview
 
 Building a Product Manager OS that goes beyond simple prompt libraries to create an agentic workflow system for product management processes.
+
+### Progress Summary
+
+**✅ Foundation Complete:** Comprehensive workflow-based toolkit with dual-track continuous discovery structure, 60+ PM tools organized across 9 stages, agent memory system, and extensive handoff guides.
+
+**🔄 Current Phase:** Transitioning from prompt-based tools to autonomous agent orchestration.
+
+**🎯 Vision:** Full agent automation with tool integrations, adaptive learning, and active thought partnership.
+
+---
+
+# CURRENT STATE: What's Implemented
+
+## Repository Structure
+
+### PM Toolkit (`pm-toolkit/`)
+**Reusable tools organized by 9 workflow stages:**
+
+1. **Strategy** - Vision, strategy review, OKRs, strategic planning
+2. **Discovery** - User research, opportunity identification (Continuous Discovery Habits framework)
+3. **Planning** - PRDs, one-pagers, specifications
+4. **Prioritization** - ICE scoring, prioritization frameworks
+5. **Design** - Design briefs, wireframes, design reference library
+6. **Delivery** - Task generation, handoffs to all teams
+7. **Experimentation** - Experiment frameworks (placeholder)
+8. **Analytics** - Quick insights, data analysis
+9. **Evals** - AI evaluation tools (placeholder)
+10. **Supporting** - Cross-cutting tools (meetings, writing, team structure)
+
+### Projects (`projects/`)
+**Active work and continuous initiatives:**
+
+- **initiatives/** - Dual-track structure (discovery + delivery)
+  - `.agent-memory/` - Context, decisions, next steps tracking
+  - `interviews/` - User research (transcripts, snapshots, synthesis)
+  - `opportunities/` - Identified needs
+  - `solutions/` - Solution ideas
+  - `assumptions/` - Tests and validation
+  - `specs/` - PRDs and requirements
+  - `designs/` - Design work
+  - `tasks/` - Implementation tracking
+  - `data/` - Analytics and metrics
+
+- **product-artifacts/** - Product-level work
+  - `roadmap/` - Quarterly roadmaps
+  - `backlog/` - Engineering and discovery backlogs
+  - `feedback/` - Centralized customer feedback
+
+- **company-context/** - Company documentation
+  - `strategy/` - Strategy documents
+  - `okrs/` - Goals and OKRs
+  - `team/` - Team structure
+
+- **meetings/** - Meeting notes (1-1s, leadership, product trio, board)
+
+### AI Configuration
+- **AGENTS.md** - Central "README for AI" with behavioral rules, navigation patterns, dual-track workflow, and PM best practices
+
+## Implemented Capabilities
+
+### ✅ Workflow-Based Organization
+- All PM tools organized by workflow stage
+- Clear separation between reusable tools and active work
+- Stage-specific README files for navigation
+
+### ✅ Dual-Track Continuous Discovery
+- **Discovery Track (Continuous):** Weekly user research, opportunity identification, solution validation
+- **Delivery Track (Sprint-based):** Building and shipping validated solutions
+- **Analytics:** Continuous measurement informing both tracks
+
+### ✅ Initiative Templates
+- Complete dual-track folder structure
+- Agent memory system (`.agent-memory/`)
+- Setup automation (`setup-new-initiative.mdc`)
+
+### ✅ Handoff Guides
+Comprehensive templates for:
+- Engineering handoffs
+- Design collaboration
+- Leadership updates
+- Sales enablement
+- Marketing launches
+- Customer success
+
+### ✅ Framework Integration
+- **Continuous Discovery Habits** (Teresa Torres)
+  - Interview snapshots
+  - Synthesis documents
+  - Opportunity mapping
+  - Solution generation
+  - Assumption testing
+- **Evidence-Guided** (Itamar Gilad)
+  - ICE scoring
+  - Prioritization frameworks
+
+### ✅ Quick Analysis Tools
+- 30-second data insights with ASCII visualizations
+- CSV analysis and pattern recognition
+- User feedback synthesis
+
+### ✅ Design Reference Library
+- Placeholder structure for design patterns
+- On-the-fly ASCII wireframe generation
+- Design brief templates
+
+### ✅ Context Management
+- Organized folder structure for AI accessibility
+- Persistent memory within initiatives
+- Cross-reference capability between documents
+
+## Current Limitations
+
+### 🚧 Not Yet Implemented
+- Full agent automation (still prompt-based)
+- Tool integrations (Jira, Figma, analytics)
+- Learning and adaptation
+- Multi-step process orchestration
+- Active thought partnership (requires manual prompting)
+
+### 📝 Placeholders
+- Experimentation frameworks (7-experimentation/)
+- AI evaluation tools (9-evals/)
+- Some company context folders (empty)
+
+---
+
+# FUTURE VISION: Where We're Going
 
 ## Core Concept: Beyond Prompts to Agents
 
@@ -211,32 +339,38 @@ Product Manager OS: Agent that creates design files based on reference library:
 
 7. **Reference library = AI design system** - Design references become the foundation for AI-generated, consistent designs
 
-## Next Steps
+## Roadmap
 
-### Development Phases
+### ✅ Phase 0: Foundation (COMPLETED)
+   - ✅ Created AGENTS.md (README for AI)
+   - ✅ Organized context: pm-toolkit/ and projects/ structure
+   - ✅ Defined best practices and behavioral rules
+   - ✅ Implemented dual-track workflow organization
+   - ✅ Built initiative templates with agent memory
+   - ✅ Created comprehensive handoff guides
+   - ✅ Integrated Continuous Discovery Habits framework
 
-**Phase 0: Foundation (Cursor Pattern)**
-   - Create AGENTS.md (README for AI)
-   - Organize context: /specs, /interviews, /data, /designs
-   - Set up validation tools (linters, tests)
-   - Define best practices and behavioral rules
+### 🔄 Phase 1: Core Process Agents (IN PROGRESS)
+Current state: Prompt-based tools (manual invocation)
+Next: Agent-driven automation
 
-1. **Phase 1: Core Process Agents**
-   - PRD agent
-   - Discovery synthesis agent (with ASCII visualization)
-   - Prioritization agent
-   - **Design reference agent** (with ASCII wireframing)
-   - Data analysis agent (30-second insights)
+   - 🚧 PRD agent (currently: PRD creation prompt)
+   - 🚧 Discovery synthesis agent (currently: synthesis prompt with ASCII visualization)
+   - 🚧 Prioritization agent (currently: ICE scoring prompt)
+   - 🚧 Design reference agent (currently: design brief + ASCII wireframing prompts)
+   - ✅ Data analysis agent (30-second insights with ASCII charts)
 
-2. **Phase 2: Design System Integration**
-   - Build Design Reference Library structure
+**Next Step:** Convert prompts to autonomous agents that orchestrate multi-step processes
+
+### 📋 Phase 2: Design System Integration (PLANNED)
+   - Build out Design Reference Library structure
    - Include ASCII patterns for rapid ideation
    - Agent reads and understands design patterns
    - Generate design files based on references (using Gemini 3)
    - Parallel prototyping with worktrees/branches
    - Ensure consistency across new features
 
-3. **Phase 3: Integration Layer**
+### 📋 Phase 3: Integration Layer (PLANNED)
    - Connect to PM tools (Jira, Linear, etc.)
    - Connect to design tools (Figma, etc.)
    - Connect to data sources (analytics, user research)
@@ -244,7 +378,7 @@ Product Manager OS: Agent that creates design files based on reference library:
    - Push outputs to right places
    - MCP integrations (Model Context Protocol)
 
-4. **Phase 4: Learning & Adaptation**
+### 📋 Phase 4: Learning & Adaptation (PLANNED)
    - Learn from user feedback
    - Adapt to team-specific workflows
    - Evolve design patterns based on usage
@@ -265,9 +399,12 @@ Product Manager OS: Agent that creates design files based on reference library:
 - ✅ **Design model:** Use Gemini 3 for visual design generation (best performance)
 - ✅ **General purpose:** Claude Opus 4.5 for complex reasoning
 - ✅ **Fast iteration:** Gemini 3 Flash for quick tasks
-- ✅ **Context organization:** Follow /specs, /interviews, /data, /designs pattern
-- ✅ **AI onboarding:** Use AGENTS.md as "README for AI"
-- ✅ **Validation:** Implement linters and tests for self-verification
+- ✅ **Context organization:** Implemented pm-toolkit/ and projects/ structure
+- ✅ **AI onboarding:** AGENTS.md with dual-track workflow and behavioral rules
+- ✅ **Workflow stages:** 9-stage organization (Strategy → Evals)
+- ✅ **Dual-track structure:** Separate discovery and delivery tracks in initiatives
+- ✅ **Agent memory:** Persistent context tracking within initiatives
+- [ ] Validation: Implement linters and tests for self-verification
 - [ ] Multi-model strategy: When to use which model for specific agents?
 - [ ] MCP integrations: Priority order for tool connections?
 
