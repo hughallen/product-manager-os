@@ -1,0 +1,125 @@
+---
+alwaysApply: false
+---
+
+# Rule: Prepare Handoff to Engineering Team
+
+## Goal
+Transform product requirements into technical specifications that engineering teams can implement efficiently, with clear acceptance criteria and edge cases.
+
+## What Engineering Needs
+- **Technical clarity** - How does this actually work?
+- **Acceptance criteria** - What defines "done"?
+- **Edge cases** - What can go wrong?
+- **Dependencies** - What needs to exist first?
+- **Performance requirements** - How fast/scalable?
+- **Data requirements** - What data flows where?
+
+## Process
+
+1. **Start with existing PRD** - Read the full PRD from initiatives folder
+2. **Add technical details** - Expand on implementation specifics
+3. **Define acceptance criteria** - Clear, testable success conditions
+4. **Document edge cases** - Error states, boundary conditions, failure modes
+5. **Identify dependencies** - Technical dependencies, APIs, services
+6. **Specify data models** - What data is created, read, updated, deleted
+7. **Include test scenarios** - Key flows to verify
+
+## Output Structure
+
+```markdown
+# Engineering Handoff: [Feature Name]
+
+## Summary
+[2-3 sentence overview of what we're building and why]
+
+## User Stories
+### Primary Flow
+**As a** [user type]
+**I want to** [action]
+**So that** [benefit]
+
+**Acceptance Criteria:**
+- [ ] Given [context], when [action], then [outcome]
+- [ ] Given [context], when [action], then [outcome]
+- [ ] Given [context], when [action], then [outcome]
+
+### Edge Cases
+- [ ] What happens when [error condition]?
+- [ ] How do we handle [boundary case]?
+- [ ] What if user tries [invalid action]?
+
+## Technical Requirements
+
+### Data Requirements
+**New Data:**
+- `field_name` (type) - Description and validation rules
+
+**Existing Data:**
+- Which tables/models are affected
+- What queries are needed
+
+### API Endpoints (if applicable)
+- `POST /api/[resource]` - Create new [resource]
+- `GET /api/[resource]/:id` - Retrieve [resource]
+- `PUT /api/[resource]/:id` - Update [resource]
+
+### Performance Requirements
+- Page load: < X seconds
+- API response: < X ms
+- Concurrent users: X
+- Data volume: X records
+
+### Dependencies
+- [ ] Service/API X must be available
+- [ ] Feature Y must be completed first
+- [ ] Database migration Z required
+
+## User Flows
+
+### Happy Path
+1. User does [action]
+2. System validates [data]
+3. System performs [operation]
+4. User sees [result]
+
+### Error Handling
+- **Invalid input:** Show error "[message]" and allow retry
+- **System error:** Show generic error and log details
+- **Network failure:** Show offline message and queue for retry
+
+## Test Scenarios
+
+### Functional Tests
+1. **Scenario:** [Description]
+   - Given: [initial state]
+   - When: [action]
+   - Then: [expected result]
+
+### Edge Case Tests
+1. **Scenario:** [Error condition]
+   - Given: [setup]
+   - When: [trigger]
+   - Then: [expected handling]
+
+## Design & UX References
+- Figma link: [URL]
+- Design brief: [link to design folder]
+- Related patterns: [existing features to reference]
+
+## Success Metrics
+- [Metric name]: Target [X]
+- [Metric name]: Target [Y]
+
+## Open Questions
+- [ ] Question for engineering team
+- [ ] Technical decision needed
+
+## Related Documentation
+- PRD: [link]
+- User research: [link]
+- Analytics plan: [link]
+
+---
+
+*Generated from [PRD location] on [date]*

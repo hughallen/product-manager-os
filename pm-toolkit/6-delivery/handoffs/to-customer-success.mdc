@@ -1,0 +1,337 @@
+---
+alwaysApply: false
+---
+
+# Rule: Prepare Handoff to Customer Success/Support
+
+## Goal
+Prepare customer-facing teams with everything they need to support, onboard, and help customers succeed with the feature.
+
+## What Customer Success Needs
+- **Feature explanation** - What does this do and how does it work?
+- **Common issues** - What will customers struggle with?
+- **Troubleshooting** - How do I help customers fix problems?
+- **Training materials** - How do I teach customers to use this?
+- **Communication plan** - How/when do we tell customers?
+
+## Output Structure
+
+```markdown
+# Customer Success Brief: [Feature Name]
+
+## Feature Overview
+
+### What It Does
+[2-3 sentence plain-English explanation of the feature]
+
+### Why Customers Will Care
+[The customer benefit, not technical details]
+
+### Who It's For
+- **Primary users:** [Customer segment/role]
+- **Secondary users:** [If applicable]
+- **Not for:** [Who shouldn't use this]
+
+---
+
+## Customer Communication
+
+### Announcement Timing
+- **Availability date:** [When feature goes live]
+- **Communication date:** [When we tell customers]
+- **Rollout approach:** [All at once / Phased / Opt-in]
+
+### Customer Segments
+**Segment 1:** [e.g., Enterprise customers]
+- **Message angle:** [How to position for them]
+- **Call to action:** [What they should do]
+
+**Segment 2:** [e.g., SMB customers]
+- **Message angle:** [How to position for them]
+- **Call to action:** [What they should do]
+
+### Communication Templates
+
+**Email Subject:** [Suggested subject line]
+
+**Email Body:**
+```
+Hi [Name],
+
+We're excited to announce [feature] - [one-liner benefit].
+
+[What it does in customer language]
+
+[How to get started]
+
+[Where to learn more]
+
+Let us know if you have any questions!
+```
+
+**In-App Message:**
+```
+🎉 New: [Feature Name]
+[One sentence benefit]
+[Try it now] [Learn more]
+```
+
+---
+
+## Customer Onboarding
+
+### Getting Started Guide
+
+**Step 1: [Action]**
+- Go to [location]
+- Click [button/link]
+- Expected result: [What they should see]
+
+**Step 2: [Action]**
+- [Instructions]
+- Expected result: [What they should see]
+
+**Step 3: [Action]**
+- [Instructions]
+- Expected result: [What they should see]
+
+### Success Checklist
+Customer has successfully adopted the feature when they:
+- [ ] [Milestone 1]
+- [ ] [Milestone 2]
+- [ ] [Milestone 3]
+
+### Best Practices to Share
+1. **[Practice]:** [Why this matters]
+2. **[Practice]:** [Why this matters]
+3. **[Practice]:** [Why this matters]
+
+---
+
+## Common Questions & Answers
+
+### Setup & Access
+**Q: How do I access this feature?**
+A: [Instructions]
+
+**Q: Do I need any special permissions?**
+A: [Permission requirements]
+
+**Q: Is this available on all plans?**
+A: [Plan availability]
+
+### Usage
+**Q: When should I use this vs. [alternative]?**
+A: [Guidance]
+
+**Q: Can I [specific action]?**
+A: [Yes/No with explanation]
+
+**Q: What happens when I [action]?**
+A: [Expected behavior]
+
+### Billing & Plans
+**Q: Is there an extra cost for this?**
+A: [Pricing info]
+
+**Q: Can I upgrade/downgrade?**
+A: [Upgrade path]
+
+---
+
+## Troubleshooting Guide
+
+### Issue: [Common Problem 1]
+**Symptoms:** Customer reports [what they see]
+
+**Cause:** [Why this happens]
+
+**Solution:**
+1. [Step to resolve]
+2. [Step to resolve]
+3. [Expected outcome]
+
+**Prevention:** [How to avoid this issue]
+
+### Issue: [Common Problem 2]
+**Symptoms:** [What customer experiences]
+
+**Cause:** [Why this happens]
+
+**Solution:**
+1. [Resolution steps]
+
+**Escalation:** [When to escalate to engineering]
+
+### Issue: [Common Problem 3]
+**Symptoms:** [What customer sees]
+
+**Cause:** [Why this happens]
+
+**Solution:**
+1. [Resolution steps]
+
+---
+
+## Known Issues & Limitations
+
+### Current Limitations
+1. **[Limitation]:** [Description and workaround if any]
+2. **[Limitation]:** [Description and workaround if any]
+
+### Planned Improvements
+- [Future enhancement] - Expected [timeframe]
+- [Future enhancement] - Expected [timeframe]
+
+### What This Feature Does NOT Do
+- [Not in scope item 1]
+- [Not in scope item 2]
+- [Not in scope item 3]
+
+---
+
+## Usage Metrics & Success Indicators
+
+### Healthy Usage Looks Like
+- [Metric]: [Healthy range]
+- [Behavior]: [What engaged users do]
+- [Frequency]: [How often they should use it]
+
+### Warning Signs
+- [ ] Customer enabled but hasn't used in [X days]
+- [ ] Customer tried but abandoned after [action]
+- [ ] Customer repeatedly encountering [issue]
+
+### Proactive Outreach Triggers
+- **Scenario 1:** If customer [behavior], reach out with [guidance]
+- **Scenario 2:** If customer [behavior], reach out with [guidance]
+
+---
+
+## Customer Training
+
+### Training Resources
+- [ ] Help Center article: [link]
+- [ ] Video tutorial: [link]
+- [ ] Webinar: [date and registration]
+- [ ] Office hours: [schedule]
+
+### Training Script (for 1-on-1)
+**Introduction (1 min):**
+"Let me show you [feature]. This will help you [benefit]."
+
+**Demo (5 min):**
+1. [Show key workflow]
+2. [Highlight main benefit]
+3. [Show common use case]
+
+**Practice (5 min):**
+"Now you try: [guided exercise]"
+
+**Wrap-up (2 min):**
+"You can find more in [help center]. Reach out anytime!"
+
+---
+
+## Escalation Paths
+
+### When to Escalate to Engineering
+- [ ] [Type of issue]
+- [ ] [Type of issue]
+- [ ] [Type of issue]
+
+### When to Loop in Product
+- [ ] [Type of feedback]
+- [ ] [Type of feature request]
+
+### When to Involve Sales
+- [ ] [Upsell opportunity]
+- [ ] [Enterprise custom request]
+
+### Escalation Contacts
+- **Engineering:** [Slack channel or email]
+- **Product:** [PM name and contact]
+- **Sales:** [When to involve]
+
+---
+
+## Feedback Collection
+
+### Key Questions to Ask
+After customers use the feature:
+1. "What were you trying to accomplish?"
+2. "Did the feature help you achieve that?"
+3. "What was confusing or difficult?"
+4. "What would make this better?"
+
+### Where to Log Feedback
+- **Bug reports:** [Ticket system/process]
+- **Feature requests:** [How to submit]
+- **User sentiment:** [Where to track]
+
+---
+
+## Help Center Updates
+
+### Required Articles
+- [ ] "[Feature Name] Overview" - [link or status]
+- [ ] "How to [primary use case]" - [link or status]
+- [ ] "Troubleshooting [Feature]" - [link or status]
+
+### Updates to Existing Articles
+- [ ] Update "[related article]" to mention new feature
+- [ ] Update "[related article]" to mention new feature
+
+---
+
+## Success Metrics
+
+### Adoption Targets
+- **Week 1:** [X]% of customers aware
+- **Month 1:** [Y]% of customers activated
+- **Month 3:** [Z]% of customers active users
+
+### Support Metrics
+- **Ticket volume:** Expected [# tickets per week]
+- **Resolution time:** Target < [X hours]
+- **Customer satisfaction:** Target > [X]%
+
+### Health Indicators
+- [ ] Low support ticket volume
+- [ ] High feature activation rate
+- [ ] Positive customer feedback
+- [ ] Increasing usage over time
+
+---
+
+## Timeline
+
+- **[Date]:** Feature launches
+- **[Date]:** Customer communication sent
+- **[Date]:** Help center articles live
+- **[Date]:** Training webinar
+- **[Date]:** Check-in on adoption metrics
+
+---
+
+## Resources
+
+### Internal Documentation
+- Full PRD: [link]
+- Design files: [link]
+- Engineering specs: [link]
+
+### Customer-Facing Materials
+- Help center: [link]
+- Release notes: [link]
+- Video tutorial: [link]
+
+### Contacts
+- **Product Manager:** [Name] - [contact]
+- **Engineering Lead:** [Name] - [contact]
+- **Designer:** [Name] - [contact]
+
+---
+
+*Prepared by [PM name] on [date]*
+*Questions? Reach out in [Slack channel] or [email]*

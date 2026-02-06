@@ -15,75 +15,78 @@ Product management involves complex workflows across research, discovery, and de
 
 This approach helps ensure your AI copilot stays on track, makes it easier to manage complex product initiatives, and gives you confidence in AI-generated strategic content.
 
+## Product Development Model
+
+This toolkit supports a **dual-track continuous discovery approach**:
+
+- **🔍 Discovery Track (Continuous):** Weekly user research, opportunity identification, and solution validation
+- **🚀 Delivery Track (Sprint-based):** Building and shipping validated solutions in 2-week sprints
+- **📊 Analytics & Learning:** Continuous measurement informing both tracks
+
+See `AGENTS.md` for detailed workflow and file organization.
+
+---
+
 ## Repository Structure
 
-### Company Level Context (`company-level-context/`)
-- **Product Vision & Strategy** (`product-vision-and-strateggy/`): 
-  - `product-strategy-review.mdc`: PRISM-aligned strategy review framework with auto-gate evidence readiness
-  - `product-vision-review.mdc`: Vision evaluation framework with 4-criteria scoring system
-- **OKRs** (`okrs/`): 
-  - `okr-sparring-partner.mdc`: Context-aware OKR coaching and sparring partner
-- **Team Structure** (`team-structure/`): 
-  - `readme.md`: Team organization models, design principles, and re-org considerations
+### AI Configuration
+- **AGENTS.md**: Central "README for AI" with behavioral rules, navigation patterns, dual-track workflow, and PM best practices
 
-### Copilots (`copilots/`)
-- **PM Strategic Copilot** (`pm-strategic-copilot.mdc`): Preconfigured prompts and workflows for strategic assistance
+### PM Toolkit (`pm-toolkit/`)
+**All reusable prompts and guides organized by workflow stage**
 
-### Frameworks (`frameworks/`)
-- **Continuous Discovery Habits** (`continuous-discovery-habits/`):
-  - `create-interview-snapshots.mdc`
-  - `create-opportunities.mdc`
-  - `generate-solutions.mdc`
-  - `indentify-and-test-assumptions.mdc`
-  - `synthesize-interview-snapshots.mdc`
-- **Evidence-Guided** (`evidence-guided/`):
-  - `calculate-ice-score.mdc`
-- **Strategic Review** (in `company-level-context/product-vision-and-strateggy/`):
-  - **PRISM Product Strategy Review**: 5-dimension framework (Problem, Reframe, Intentional Bets, Systemized Execution, Momentum) with auto-gate evidence readiness
-  - **Product Vision Review**: 4-criteria evaluation (Lofty & Inspiring, Realistic & Attainable, Constraint-Free, Grounded in User Problem)
+- **1-strategy/**: Vision, strategy review, OKRs, strategic planning
+- **2-discovery/**: User research, opportunity identification (Continuous Discovery Habits framework)
+- **3-planning/**: PRDs, one-pagers, specifications
+- **4-prioritization/**: ICE scoring, prioritization frameworks
+- **5-design/**: Design briefs, wireframes, design reference library
+- **6-delivery/**: Task generation, handoffs to all teams
+- **7-experimentation/**: Experiment frameworks (placeholder)
+- **8-analytics/**: Quick insights, data analysis
+- **9-evals/**: AI evaluation tools (placeholder)
+- **supporting/**: Cross-cutting tools (meetings, writing, team structure)
 
-### Guides (`guides/`)
-- **Meetings** (`meetings/`): `1-1s.mdc`
-- **Product** (`product/`): 
-  - `create-1-pager.mdc`: One-pager creation framework
-  - `create-design-brief.mdc`: Design brief generation guide
-  - `create-prd.mdc`: Product Requirements Document creation
-  - `generate-figma-make-prompt.mdc`: Figma design prompt generation
-  - `generate-tasks.mdc`: Task breakdown and generation
-  - `process-task-list.mdc`: Task list processing and management
-- **Writing** (`writing/`): `writing.mdc`
+See [`pm-toolkit/README.md`](pm-toolkit/README.md) for detailed tool catalog.
 
-### Initiatives (`initiatives/`)
-- **Templates** (`_templates/`):
-  - `setup-new-initiative.mdc`: New initiative setup guide
-  - `initiative-template/` with subfolders for:
-    - `assumptions/`: Assumption testing and validation
-    - `design/`: Design artifacts and specifications
-    - `opportunities/`: Opportunity identification and mapping
-    - `prd/`: Product Requirements Documents
-    - `product-analytics/`: Analytics and measurement frameworks
-    - `solutions/`: Solution ideation and development
-    - `tasks/`: Task management and tracking
-    - `user-interviews/`: User research with `snapshots/`, `synthesis/`, and `transcripts/` subfolders
-- **Archive** (`archive/`): Archived initiatives (`README.md`)
+### Projects (`projects/`)
+**Your continuous work and active initiatives**
 
-### Meeting Notes (`meeting-notes/`)
-- `1-1 notes/`: One-on-one meeting documentation
-- `leadership/`: Leadership team meeting notes
-- `product-trio/`: Product trio (PM, Design, Engineering) collaboration notes
-- `board-n-investor/`: Board and investor meeting documentation
+- **initiatives/**: Active product initiatives with dual-track structure
+  - `_templates/`: Template for new initiatives with discovery + delivery tracks
+  - `[initiative-name]/`: Your active initiatives
+  - `archive/`: Completed initiatives
+- **product-artifacts/**: Product-level artifacts
+  - `roadmap/`: Quarterly roadmaps and strategic planning
+  - `backlog/`: Engineering and discovery backlogs
+  - `feedback/`: Centralized customer feedback and themes
+- **company-context/**: Your company documentation
+  - `strategy/`: Your actual strategy documents
+  - `okrs/`: Your actual OKRs and goals
+  - `team/`: Your team structure and org chart
+- **meetings/**: Meeting notes
+  - `1-1 notes/`: One-on-one documentation
+  - `leadership/`: Leadership team notes
+  - `product-trio/`: PM-Design-Engineering collaboration
+  - `board-n-investor/`: Board and investor meetings
+
+See [`projects/README.md`](projects/README.md) for workflow guidance.
 
 > Tip: When referencing files in Cursor, use the exact path names above.
 
 ## Quick Start
 
-1. Clone this repository to your local workspace
-2. In Cursor, use `@` to mention files (e.g., `@company-level-context/product-vision-and-strateggy/product-strategy-review.mdc`)
-3. Start with strategic review frameworks:
-   - **Strategy Review**: `@company-level-context/product-vision-and-strateggy/product-strategy-review.mdc`
-   - **Vision Evaluation**: `@company-level-context/product-vision-and-strateggy/product-vision-review.mdc`
-   - **OKR Coaching**: `@company-level-context/okrs/okr-sparring-partner.mdc`
-4. Or begin with product development: `guides/product/create-prd.mdc` or `initiatives/_templates/setup-new-initiative.mdc`
+1. **Clone this repository** to your local workspace
+2. **Read `AGENTS.md`** - This onboards AI to your workspace (AI reads this automatically)
+3. **Browse `pm-toolkit/`** - Explore tools by workflow stage
+4. **Customize your context:**
+   - Add company strategy to `projects/company-context/strategy/`
+   - Add your OKRs to `projects/company-context/okrs/`
+   - Customize `pm-toolkit/1-strategy/pm-strategic-copilot.mdc`
+5. **Start using tools:**
+   - Create initiative: `@projects/initiatives/_templates/setup-new-initiative.mdc`
+   - Generate PRD: `@pm-toolkit/3-planning/create-prd.mdc`
+   - Analyze data: `@pm-toolkit/8-analytics/quick-insights.mdc`
+   - Create handoffs: `@pm-toolkit/6-delivery/handoffs/`
 
 ##  How to Use
 
@@ -92,8 +95,9 @@ This approach helps ensure your AI copilot stays on track, makes it easier to ma
 First, ensure you have Cursor installed and these framework files accessible:
 
 1. Clone or download this repository to your local workspace
-2. In Cursor's Agent chat, reference files with `@` (e.g., `@frameworks/continuous-discovery-habits/create-interview-snapshots.mdc`)
-3. Follow the structured workflows for different PM activities
+2. In Cursor's Agent chat, reference files with `@` (e.g., `@pm-toolkit/2-discovery/continuous-discovery-habits/create-interview-snapshots.mdc`)
+3. Browse tools by workflow stage in `pm-toolkit/`
+4. Work on active initiatives in `projects/initiatives/`
 
 ### 2️. Leverage AI Dev Tasks Framework
 
@@ -114,18 +118,40 @@ Instead of chat-based interactions, work directly in documents that grow smarter
 
 ## Common Workflows
 
-- **Create a PRD**: Start with `guides/product/create-prd.mdc`
-- **Create One-Pager**: Use `guides/product/create-1-pager.mdc` for concise product summaries
-- **Generate Design Brief**: Use `guides/product/create-design-brief.mdc` for design specifications
-- **Create Figma Prompts**: Use `guides/product/generate-figma-make-prompt.mdc` for design tool integration
-- **Generate and Process Tasks**: Use `guides/product/generate-tasks.mdc` and `guides/product/process-task-list.mdc`
-- **Run Continuous Discovery**: Follow `frameworks/continuous-discovery-habits/*`
-- **Score Ideas (ICE)**: Use `frameworks/evidence-guided/calculate-ice-score.mdc`
-- **Review Product Strategy**: Use `company-level-context/product-vision-and-strateggy/product-strategy-review.mdc` with PRISM framework
-- **Evaluate Product Vision**: Use `company-level-context/product-vision-and-strateggy/product-vision-review.mdc` with 4-criteria scoring
-- **Coach OKRs**: Use `company-level-context/okrs/okr-sparring-partner.mdc` for context-aware OKR development
-- **Design Team Structure**: Reference `company-level-context/team-structure/readme.md` for organizational models
-- **Start a New Initiative**: Use `initiatives/_templates/setup-new-initiative.mdc` and the `initiative-template/` structure
+### 1. Strategy (Quarterly)
+- **Review Strategy**: `@pm-toolkit/1-strategy/product-strategy-review.mdc`
+- **Evaluate Vision**: `@pm-toolkit/1-strategy/product-vision-review.mdc`
+- **Coach OKRs**: `@pm-toolkit/1-strategy/okr-sparring-partner.mdc`
+
+### 2. Discovery (Weekly)
+- **User Interviews**: `@pm-toolkit/2-discovery/continuous-discovery-habits/create-interview-snapshots.mdc`
+- **Synthesize Research**: `@pm-toolkit/2-discovery/continuous-discovery-habits/synthesize-interview-snapshots.mdc`
+- **Identify Opportunities**: `@pm-toolkit/2-discovery/continuous-discovery-habits/create-opportunities.mdc`
+- **Generate Solutions**: `@pm-toolkit/2-discovery/continuous-discovery-habits/generate-solutions.mdc`
+
+### 3. Planning
+- **Create PRD**: `@pm-toolkit/3-planning/create-prd.mdc`
+- **Create One-Pager**: `@pm-toolkit/3-planning/create-1-pager.mdc`
+
+### 4. Prioritization
+- **Score Ideas**: `@pm-toolkit/4-prioritization/calculate-ice-score.mdc`
+
+### 5. Design
+- **Design Brief**: `@pm-toolkit/5-design/create-design-brief.mdc`
+- **Figma Prompts**: `@pm-toolkit/5-design/generate-figma-make-prompt.mdc`
+- **ASCII Wireframes**: Ask AI to generate on-the-fly
+
+### 6. Delivery
+- **Break Down Tasks**: `@pm-toolkit/6-delivery/generate-tasks.mdc`
+- **Process Tasks**: `@pm-toolkit/6-delivery/process-task-list.mdc`
+- **Handoffs**: `@pm-toolkit/6-delivery/handoffs/to-[audience].mdc`
+
+### 8. Analytics
+- **Quick Insights**: `@pm-toolkit/8-analytics/quick-insights.mdc`
+
+### Initiative Management
+- **Start New Initiative**: `@projects/initiatives/_templates/setup-new-initiative.mdc`
+- **Browse toolkit by stage**: See `pm-toolkit/README.md`
 
 
 ## Acknowledgments

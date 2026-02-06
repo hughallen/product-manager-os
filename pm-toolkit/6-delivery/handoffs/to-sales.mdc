@@ -1,0 +1,280 @@
+---
+alwaysApply: false
+---
+
+# Rule: Prepare Handoff to Sales Team
+
+## Goal
+Equip sales team with the information they need to position, demo, and sell the feature effectively to prospects and customers.
+
+## What Sales Needs
+- **Sales pitch** - How do I sell this in 30 seconds?
+- **Demo flow** - How do I show this effectively?
+- **Value propositions** - Why should customers care?
+- **Competitive positioning** - How does this beat alternatives?
+- **Objection handling** - How do I respond to pushback?
+- **Pricing/packaging** - Who gets this and at what price?
+
+## Output Structure
+
+```markdown
+# Sales Brief: [Feature Name]
+
+## 30-Second Pitch
+"[Feature] helps [target customer] [achieve outcome] by [key capability]. This means [business benefit] without [common pain point]. Perfect for [ideal customer profile]."
+
+---
+
+## Who Should Buy This
+
+### Ideal Customer Profile
+- **Company size:** [Range]
+- **Industry:** [Verticals where this resonates]
+- **Use case:** [When they need this]
+- **Pain point:** [What they're struggling with]
+- **Budget:** [Typical deal size]
+
+### Buyer Personas
+**[Decision Maker]** (e.g., VP of Sales)
+- **Cares about:** [Business outcomes they're measured on]
+- **Pitch angle:** [How to position value to them]
+- **Key message:** "[Outcome-focused message]"
+
+**[End User]** (e.g., Sales Rep)
+- **Cares about:** [Day-to-day impact]
+- **Pitch angle:** [How this makes their job easier]
+- **Key message:** "[Benefit-focused message]"
+
+### Qualification Questions
+- [ ] "Are you currently [doing X]?"
+- [ ] "How much time does [problem] cost you?"
+- [ ] "What would it be worth to [achieve outcome]?"
+- [ ] "Who else is involved in [workflow]?"
+
+---
+
+## Value Proposition
+
+### Business Outcomes
+1. **[Metric/outcome]:** [Expected improvement]
+   - Example: "Reduce time to [task] by 50%"
+2. **[Metric/outcome]:** [Expected improvement]
+   - Example: "Increase [business metric] by 20%"
+3. **[Metric/outcome]:** [Expected improvement]
+
+### ROI Calculation
+**Customer Investment:**
+- [Your product cost]
+- [Implementation time/cost]
+
+**Customer Return:**
+- [Time saved per user × cost per hour × users]
+- [Revenue increase or cost reduction]
+- **Payback period:** [X months]
+
+### Customer Success Stories
+**[Company Name]** achieved [outcome]
+- **Challenge:** [What they were struggling with]
+- **Solution:** [How they use this feature]
+- **Result:** [Quantified outcome]
+- **Quote:** "[Testimonial]"
+
+---
+
+## Competitive Positioning
+
+### vs. [Competitor 1]
+**Our Advantage:**
+- [What we do better/differently]
+- [What they lack that we have]
+
+**Response to "We already use [Competitor]":**
+"[Positioning statement showing differentiation]"
+
+### vs. [Competitor 2]
+**Our Advantage:**
+- [What we do better/differently]
+
+**Response to "We're considering [Competitor]":**
+"[Positioning statement]"
+
+### vs. In-House Solution
+**Our Advantage:**
+- [Why buying beats building]
+
+**Response to "We can build this ourselves":**
+"[Positioning about time, cost, maintenance, opportunity cost]"
+
+### vs. Doing Nothing
+**Cost of Inaction:**
+- [What they lose by not solving this]
+- [Opportunity cost quantified]
+
+**Response to "We'll wait":**
+"[Urgency positioning - competitive risk, cost of delay]"
+
+---
+
+## Demo Flow
+
+### Setup (Pre-demo)
+1. [Configuration or data needed]
+2. [Account setup requirements]
+3. [Optimal demo scenario]
+
+### The Perfect Demo (10-15 minutes)
+**Hook (1 min):** Start with the problem
+- "Imagine you're a [persona] trying to [task]..."
+
+**Problem (2 min):** Show the pain
+- "Without [feature], you have to [old painful way]"
+- [Demo the friction/problem if possible]
+
+**Solution (5-7 min):** Show the value
+1. **Step 1:** [Action] → [Immediate benefit]
+2. **Step 2:** [Action] → [Immediate benefit]
+3. **Step 3:** [Action] → [Wow moment]
+
+**Outcome (2 min):** Quantify the impact
+- "This just saved you [X time/effort]"
+- "Now you can [achieve outcome]"
+
+**Call to Action (1 min):** Next steps
+- "Let's get this set up for your team"
+
+### Demo Tips
+✅ **Do:**
+- Focus on outcomes, not features
+- Use realistic data/scenarios
+- Let prospect interact if possible
+- Show before/after comparison
+
+❌ **Don't:**
+- Show every feature ("feature vomit")
+- Go too technical too fast
+- Skip the problem setup
+- Rush through value moments
+
+---
+
+## Objection Handling
+
+### "This is too expensive"
+**Response:** "[Value justification]. Let's look at the ROI: [calculation]. The real cost is continuing to [pain point] - that's costing you [$ amount] per [time period]."
+
+**Discount Strategy:** [When/how discounting is approved]
+
+### "We need [feature you don't have]"
+**Response:** "[Acknowledge]. Here's how customers typically handle that: [workaround or roadmap]. What's more important to you: [this feature] or [solving the core problem]?"
+
+### "We need to think about it"
+**Response:** "I understand. What specifically do you need to think through? [Price/Fit/Timing/Other?] Let's address that now."
+
+### "Can we do a trial first?"
+**Response:** [Your trial policy and positioning]
+
+### "We need more stakeholders involved"
+**Response:** "Great! Who else should we bring in? [Facilitate multi-threaded sale]"
+
+---
+
+## Pricing & Packaging
+
+### Availability
+- **Plans:** [Which tiers/plans include this]
+- **Add-on:** [If sold separately, price]
+- **Enterprise:** [If enterprise-only or negotiable]
+
+### Discounting Guidelines
+- **Standard discount:** [% or amount]
+- **Approval needed for:** [Higher discounts]
+- **Bundle opportunities:** [Other features to package with]
+
+### Contract Considerations
+- **Minimum commitment:** [If any]
+- **Implementation fee:** [If applicable]
+- **Support level:** [What's included]
+
+---
+
+## FAQs
+
+### Technical Questions
+**Q: Does this work with [integration]?**
+A: [Yes/No/Roadmap]
+
+**Q: What are the technical requirements?**
+A: [Browser, systems, dependencies]
+
+**Q: How long does implementation take?**
+A: [Typical timeline]
+
+### Business Questions
+**Q: What results have other customers seen?**
+A: [Customer outcomes and metrics]
+
+**Q: What if we need customization?**
+A: [Custom work policy]
+
+**Q: Do you have customers in [industry]?**
+A: [Reference customers if available]
+
+---
+
+## Closing Checklist
+
+Before closing a deal with this feature:
+- [ ] Confirmed they have [prerequisite] in place
+- [ ] Validated [use case] matches their needs
+- [ ] Identified champion and decision maker
+- [ ] Addressed technical requirements
+- [ ] Set success criteria for post-sale
+
+---
+
+## Sales Assets
+
+### Available Now
+- [ ] Product sheet: [link]
+- [ ] Demo video: [link]
+- [ ] Case studies: [link]
+- [ ] ROI calculator: [link]
+- [ ] Battle cards: [link]
+
+### Coming Soon
+- [ ] [Asset] - Available [date]
+
+---
+
+## Resources & Support
+
+### Product Expert
+- **PM:** [Name] - [email/slack]
+- **When to involve:** [Complex questions, technical deep-dives, enterprise deals]
+
+### Success Stories Database
+- [Link to case studies or customer references]
+
+### Demo Environment
+- [Link or instructions for demo access]
+
+---
+
+## Launch & Rollout
+
+### When to Start Selling
+- **Date:** [When sales can talk about it]
+- **Training:** [Required training before selling]
+
+### Rollout Plan
+- **Phase 1:** [Which customers/segment]
+- **Phase 2:** [Expansion]
+
+### Sales Targets
+- **Attach rate:** [% of new deals that should include this]
+- **Upsell target:** [# of existing customers to upgrade]
+
+---
+
+*Prepared by [PM name] on [date]*
+*Questions? Contact [PM] via [slack/email]*

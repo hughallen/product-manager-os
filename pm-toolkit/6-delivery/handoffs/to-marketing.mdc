@@ -1,0 +1,233 @@
+---
+alwaysApply: false
+---
+
+# Rule: Prepare Handoff to Marketing/GTM Team
+
+## Goal
+Transform product details into customer-facing value propositions, positioning, and launch materials that marketing can use to promote the feature.
+
+## What Marketing Needs
+- **Customer value** - What's in it for users? (Not features, benefits)
+- **Positioning** - How is this different from competitors?
+- **Target audience** - Who should we market this to?
+- **Key messages** - What should we say about it?
+- **Launch timing** - When can they talk about it?
+- **Assets needed** - What marketing materials are required?
+
+## Process
+
+1. **Translate features to benefits** - Convert "what it does" to "what users get"
+2. **Define positioning** - Competitive differentiation and unique value
+3. **Identify target segments** - Who will care most about this?
+4. **Create messaging hierarchy** - Primary message + supporting points
+5. **Plan launch approach** - Rollout strategy and channels
+6. **List required assets** - What marketing needs to create
+
+## Output Structure
+
+```markdown
+# Marketing Brief: [Feature Name]
+
+## One-Liner
+[One sentence customer-facing description of this feature]
+
+## Customer Value Proposition
+
+### The Problem (Customer Language)
+[What frustration or need does this address, in words customers would use?]
+
+### The Solution (Benefits, Not Features)
+[Feature Name] helps you [achieve outcome] so you can [bigger benefit].
+
+**Key Benefits:**
+1. **[Benefit]:** [How this makes customer's life better]
+2. **[Benefit]:** [How this makes customer's life better]
+3. **[Benefit]:** [How this makes customer's life better]
+
+### Why It Matters
+[Emotional or practical impact on customer's work/life]
+
+---
+
+## Target Audience
+
+### Primary Audience
+- **Who:** [Customer segment, role, company size]
+- **Pain points:** [What they're struggling with]
+- **Use case:** [When/why they'll use this]
+- **Value driver:** [What they care about most - time, money, ease, etc.]
+
+### Secondary Audience
+- **Who:** [Another segment if applicable]
+- **Use case:** [Their specific need]
+
+### Personas
+- **[Persona name]:** [How this solves their specific problem]
+- **[Persona name]:** [How this solves their specific problem]
+
+---
+
+## Positioning
+
+### Unique Value
+**What makes this different/better:**
+- [Differentiator 1]
+- [Differentiator 2]
+- [Differentiator 3]
+
+### Competitive Comparison
+| Feature | Us | Competitor A | Competitor B |
+|---------|-----|--------------|--------------|
+| [Capability 1] | ✅ [Our advantage] | ❌ or ⚠️ | ❌ or ⚠️ |
+| [Capability 2] | ✅ [Our advantage] | ✅ | ❌ |
+| [Capability 3] | ✅ [Our advantage] | ❌ | ✅ |
+
+**Key Differentiators:**
+- [What we do that nobody else does]
+- [What we do better than anyone else]
+
+---
+
+## Messaging Framework
+
+### Primary Message (Headline)
+[One sentence value proposition for marketing materials]
+
+### Supporting Messages
+1. **[Theme]:** [Key point in customer language]
+2. **[Theme]:** [Key point in customer language]
+3. **[Theme]:** [Key point in customer language]
+
+### Proof Points
+- [Statistic, case study, or evidence]
+- [Customer quote or testimonial]
+- [Metric or outcome]
+
+### Customer Quote (If Available)
+> "[Direct quote from beta user or research about the value they got]"
+> — [Customer name, title, company if available]
+
+---
+
+## Use Cases & Customer Stories
+
+### Use Case 1: [Scenario Name]
+**Customer:** [Type of customer]
+**Challenge:** [What they were struggling with]
+**Solution:** [How this feature helps]
+**Outcome:** [Result they achieved]
+
+### Use Case 2: [Scenario Name]
+**Customer:** [Type of customer]
+**Challenge:** [What they were struggling with]
+**Solution:** [How this feature helps]
+**Outcome:** [Result they achieved]
+
+---
+
+## Launch Plan
+
+### Availability
+- **Launch date:** [When feature goes live]
+- **Rollout:** [Phased or full launch]
+- **Availability:** [All plans or specific tiers]
+
+### Launch Strategy
+- **Announcement timing:** [When can marketing start talking about it]
+- **Primary channels:** [Email, blog, social, PR, etc.]
+- **Campaign theme:** [If this fits into bigger campaign]
+
+### Assets Needed
+- [ ] Blog post ([# words], due [date])
+- [ ] Email announcement ([audience], due [date])
+- [ ] Social media posts ([# posts], due [date])
+- [ ] Landing page ([if needed], due [date])
+- [ ] Product screenshots ([# and type], due [date])
+- [ ] Demo video ([length], due [date])
+- [ ] Case study ([if applicable], due [date])
+- [ ] Sales enablement ([one-pager, slides, etc.])
+
+---
+
+## Feature Details (For Reference)
+
+### How It Works
+[Simple explanation of what users do and what happens]
+
+1. User [action]
+2. System [result]
+3. User gets [outcome]
+
+### Key Features (Technical Details)
+- **[Feature]:** [Brief description]
+- **[Feature]:** [Brief description]
+- **[Feature]:** [Brief description]
+
+### Screenshots/Mockups
+- [Link to designs or screenshots]
+- [Key screens to highlight]
+
+---
+
+## Sales Enablement
+
+### Elevator Pitch
+"[Feature] helps [target audience] [achieve outcome] by [key capability]. Unlike [competitor approach], we [unique advantage]."
+
+### Common Questions & Answers
+**Q: [Customer objection or question]**
+A: [Response]
+
+**Q: [Customer objection or question]**
+A: [Response]
+
+**Q: [Customer objection or question]**
+A: [Response]
+
+### Battle Cards
+- **When to lead with this:** [Scenarios where this feature wins deals]
+- **Competitive wins:** [How this beats competitor offerings]
+
+---
+
+## Success Metrics
+
+### Marketing Metrics
+- **Awareness:** [How we'll measure reach]
+- **Engagement:** [Click rates, content consumption]
+- **Conversion:** [Trial signups, upgrades, etc.]
+
+### Product Adoption
+- **Target:** [X]% of [audience] using feature within [timeframe]
+- **Leading indicators:** [Early signals of adoption]
+
+---
+
+## Timeline & Milestones
+
+- **[Date]:** Marketing brief ready (this doc)
+- **[Date]:** Assets created and ready
+- **[Date]:** Launch announcement goes live
+- **[Date]:** Follow-up content/campaign
+- **[Date]:** Success review
+
+---
+
+## Resources & Contacts
+
+### Key Contacts
+- **Product:** [PM name]
+- **Engineering:** [Lead name]
+- **Design:** [Designer name]
+
+### Reference Materials
+- Full PRD: [link]
+- User research: [link]
+- Design files: [link]
+- Competitive analysis: [link]
+
+---
+
+*Prepared by [PM name] on [date]*
+*For [launch/campaign name]*

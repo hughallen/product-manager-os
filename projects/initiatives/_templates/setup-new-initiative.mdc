@@ -1,0 +1,132 @@
+---
+alwaysApply: false
+---
+# Rule: Create New Initiative Structure
+
+## Goal
+Create a new initiative folder with standardized structure and populate with customized templates from the initiative template.
+
+## Process
+1. **Gather Initiative Details**
+   - Initiative name (use kebab-case: e.g., 'mobile-app-redesign')
+   - Owner/Product Manager name
+   - Brief description of the initiative goal
+   - Target timeline (optional)
+   - Key stakeholders (optional)
+
+2. **Create Initiative Folder Structure**
+   - Create `projects/initiatives/[initiative-name]/` folder
+   - Copy entire structure from `projects/initiatives/_templates/initiative-template/`
+   - Preserve all subfolders and README files
+
+3. **Customize README.md**
+   - Replace `[Initiative Name]` with the actual initiative name
+   - Replace `[Product Manager Name]` with the owner's name
+   - Update the goal description
+   - Add timeline if provided
+   - Add stakeholders if provided
+   - Keep all other template content intact
+
+4. **Initialize Placeholder Files**
+   - Create `.gitkeep` files in empty folders to preserve structure
+   - Ensure all subfolder README files are properly copied
+   - Maintain file permissions and structure
+   - **Critical:** Preserve all `.gitkeep` files from template to maintain empty folder structure
+
+## Naming Conventions
+- **Initiative Folder:** Use kebab-case (e.g., `mobile-app-redesign`, `checkout-optimization`)
+- **Include Quarter:** If relevant, add quarter prefix (e.g., `2024q1-mobile-redesign`)
+- **Keep Descriptive:** Use clear, meaningful names that describe the initiative
+
+## Output Structure
+```
+projects/initiatives/[initiative-name]/
+├── README.md                      # Customized with initiative details
+├── interviews/                    # User research
+│   ├── README.md
+│   ├── snapshots/
+│   ├── synthesis/
+│   └── transcripts/
+├── opportunities/
+│   └── README.md
+├── assumptions/
+│   └── README.md                  # Outputs from @indentify-and-test-assumptions.mdc
+├── solutions/
+│   └── README.md                  # Outputs from @generate-solutions.mdc
+├── data/                          # Analytics and data analysis
+│   └── README.md
+├── specs/                         # Product specs (PRDs, one-pagers)
+│   └── README.md
+├── designs/                       # Design artifacts
+│   └── README.md                  # Design briefs and specs
+├── tasks/
+│   └── README.md
+└── .agent-memory/                 # AI context and state
+    ├── decisions.md               # Key decisions log
+    ├── context.md                 # Current state
+    └── next-steps.md              # Recommended actions
+```
+
+## Integration Points
+After creating the initiative structure, remind the user about these workflow integrations:
+
+### Research & Discovery (Stage 2)
+- **User Research:** Use `@pm-toolkit/2-discovery/continuous-discovery-habits/create-interview-snapshots.mdc`
+- **Synthesis:** Use `@pm-toolkit/2-discovery/continuous-discovery-habits/synthesize-interview-snapshots.mdc`
+- **Opportunities:** Use `@pm-toolkit/2-discovery/continuous-discovery-habits/create-opportunities.mdc`
+- **Solutions:** Use `@pm-toolkit/2-discovery/continuous-discovery-habits/generate-solutions.mdc`
+- **Assumptions:** Use `@pm-toolkit/2-discovery/continuous-discovery-habits/identify-and-test-assumptions.mdc`
+
+### Planning & Specification (Stage 3)
+- **PRD Creation:** Use `@pm-toolkit/3-planning/create-prd.mdc` in `specs/` folder
+- **One-Pagers:** Use `@pm-toolkit/3-planning/create-1-pager.mdc` in `specs/` folder
+
+### Prioritization (Stage 4)
+- **ICE Scoring:** Use `@pm-toolkit/4-prioritization/calculate-ice-score.mdc`
+
+### Design (Stage 5)
+- **Design Briefs:** Use `@pm-toolkit/5-design/create-design-brief.mdc` in `designs/` folder
+- **ASCII Wireframes:** Ask AI to generate wireframes for rapid iteration
+- **Figma Prompts:** Use `@pm-toolkit/5-design/generate-figma-make-prompt.mdc`
+
+### Delivery (Stage 6)
+- **Task Generation:** Use `@pm-toolkit/6-delivery/generate-tasks.mdc` in `tasks/` folder
+- **Task Processing:** Use `@pm-toolkit/6-delivery/process-task-list.mdc`
+- **Handoffs:** Use `@pm-toolkit/6-delivery/handoffs/to-[audience].mdc`
+  - to-engineering, to-design, to-leadership, to-marketing, to-sales, to-customer-success
+
+### Analytics (Stage 8)
+- **Quick Analysis:** Use `@pm-toolkit/8-analytics/quick-insights.mdc` for rapid data analysis in `data/`
+
+### Memory & Context
+- **Decision Tracking:** Update `.agent-memory/decisions.md` with key choices
+- **Current State:** Keep `.agent-memory/context.md` updated with progress
+- **Next Steps:** Maintain `.agent-memory/next-steps.md` with action items
+
+## Validation
+Ensure the following after creation:
+- [ ] All folders from template are copied (including design folder)
+- [ ] README.md is properly customized
+- [ ] All subfolder README files are present
+- [ ] Folder structure matches the template exactly
+- [ ] Initiative name follows naming conventions
+
+## Success Message
+After successful creation, provide:
+- Confirmation of the new initiative folder location
+- Quick start guide for next steps
+- Links to relevant workflow tools (including design brief and Figma Make prompt tools)
+- Reminder about folder structure and integration points
+
+## Example Usage
+```
+User: "Create a new initiative for mobile app redesign, owned by Sarah Kim"
+
+AI Response: 
+- Creates: projects/initiatives/mobile-app-redesign/
+- Customizes README with "Mobile App Redesign" and "Sarah Kim"
+- Provides next steps for user research, design brief creation, and PRD creation
+```
+
+---
+*This script automates the tedious setup process while ensuring consistency across all initiatives.*

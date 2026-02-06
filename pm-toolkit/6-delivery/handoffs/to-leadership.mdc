@@ -1,0 +1,187 @@
+---
+alwaysApply: false
+---
+
+# Rule: Prepare Handoff to Leadership/Executives
+
+## Goal
+Distill product work into executive-level summaries that communicate business impact, strategic alignment, and key decisions needed.
+
+## What Leadership Needs
+- **Bottom line up front** - What's the ask/update in one sentence?
+- **Business impact** - How does this affect company goals?
+- **Strategic alignment** - How does this support our strategy?
+- **Resource requirements** - What will this cost (time, people, money)?
+- **Risks** - What could go wrong?
+- **Decisions needed** - What do they need to approve/decide?
+
+## Process
+
+1. **Start with the ask** - What decision or update is this about?
+2. **Connect to strategy** - How does this support company OKRs/vision?
+3. **Quantify impact** - Business metrics and expected outcomes
+4. **Outline investment** - Resources, timeline, opportunity cost
+5. **Address risks** - What could go wrong and how we'll mitigate
+6. **Present options** - If seeking decision, show alternatives with trade-offs
+
+## Output Structure
+
+```markdown
+# Executive Summary: [Initiative Name]
+
+## TL;DR
+**[One sentence:** What this is about and what you need from leadership]
+
+## The Ask
+[Specific decision needed or key update in 2-3 sentences]
+
+---
+
+## Business Impact
+
+### Expected Outcomes
+- **[Primary metric]:** Increase from [X] to [Y] ([Z]% improvement)
+- **[Secondary metric]:** [Expected change]
+- **Timeline:** [When we expect to see results]
+
+### Strategic Alignment
+This initiative supports:
+- **Company Vision:** [How this connects to 1-3 year vision]
+- **OKRs:** [Specific OKR(s) this ladders up to]
+- **Strategic Priority:** [Which company priority this addresses]
+
+### Market Context
+- **Opportunity:** [Why now? Market timing, competitive pressure, user demand]
+- **Competition:** [How this positions us vs. competitors]
+- **Risk of inaction:** [What happens if we don't do this]
+
+---
+
+## Resource Requirements
+
+### Team & Time
+- **Engineering:** [X] engineers for [Y] weeks/months
+- **Design:** [X] designers for [Y] weeks
+- **PM:** [X]% of PM capacity
+- **Other:** [Any other team involvement]
+
+### Budget
+- **Direct costs:** $[X] ([breakdown if significant])
+- **Opportunity cost:** [What we're not doing instead]
+
+### Timeline
+- **Discovery/Design:** [Dates]
+- **Development:** [Dates]
+- **Launch:** [Target date]
+
+---
+
+## Options Analysis
+
+### Option 1: [Recommended approach]
+**Pros:**
+- [Key benefit 1]
+- [Key benefit 2]
+
+**Cons:**
+- [Trade-off 1]
+- [Trade-off 2]
+
+**Investment:** [Time/money/resources]
+**Expected Return:** [Impact/metrics]
+
+### Option 2: [Alternative]
+**Pros:**
+- [Key benefit 1]
+
+**Cons:**
+- [Trade-off 1]
+
+**Investment:** [Time/money/resources]
+**Expected Return:** [Impact/metrics]
+
+### Option 3: Do Nothing
+**Impact:** [What happens if we don't proceed]
+
+### Recommendation
+[Which option and why, in 2-3 sentences]
+
+---
+
+## Risks & Mitigation
+
+### Top Risks
+1. **[Risk]:** [Probability] probability, [High/Med/Low] impact
+   - **Mitigation:** [How we'll address it]
+
+2. **[Risk]:** [Probability] probability, [High/Med/Low] impact
+   - **Mitigation:** [How we'll address it]
+
+3. **[Risk]:** [Probability] probability, [High/Med/Low] impact
+   - **Mitigation:** [How we'll address it]
+
+### Dependencies
+- [Dependency 1 and status]
+- [Dependency 2 and status]
+
+---
+
+## Decision Points
+
+### Now
+- [ ] **[Decision needed]:** [What needs to be decided]
+  - **By when:** [Date]
+  - **Impact if delayed:** [Consequence]
+
+### Later
+- [ ] **[Future decision]:** [What will need approval later]
+  - **By when:** [Date]
+
+---
+
+## Success Metrics
+
+### Leading Indicators (Early signals)
+- [Metric]: Target [X]
+- [Metric]: Target [Y]
+
+### Lagging Indicators (Business outcomes)
+- [Metric]: Target [X]
+- [Metric]: Target [Y]
+
+### Check-in Cadence
+- **Weekly:** [What we'll monitor]
+- **Monthly:** [Progress review with leadership]
+- **Milestone:** [When we'll do formal review]
+
+---
+
+## Questions & Next Steps
+
+### Open Questions
+1. [Question for leadership decision]
+2. [Question for leadership input]
+
+### Next Steps
+1. [Immediate next action if approved]
+2. [Second action]
+3. [Third action]
+
+---
+
+## Appendix
+
+### Supporting Evidence
+- User research: [Brief summary or link]
+- Market data: [Key findings]
+- Financial model: [Link to detailed analysis]
+
+### Related Documentation
+- Full PRD: [link]
+- Product strategy: [link]
+- OKRs: [link]
+
+---
+
+*Prepared by [PM name] on [date]*
+*For [meeting or decision forum]*

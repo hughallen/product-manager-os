@@ -1,0 +1,169 @@
+---
+alwaysApply: false
+---
+
+# Rule: Prepare Handoff to Design Team
+
+## Goal
+Transform product requirements into design briefs that help designers understand the problem, users, and constraints before creating solutions.
+
+## What Design Needs
+- **Problem definition** - What user problem are we solving?
+- **User context** - Who is this for and what's their situation?
+- **User flows** - What journey are we designing for?
+- **Constraints** - Technical, business, or brand limitations
+- **Success criteria** - How do we know the design works?
+- **Inspiration** - Related patterns or references
+
+## Process
+
+1. **Extract user problem** - Start with the core user need, not the solution
+2. **Define target users** - Specific personas and use cases
+3. **Map user journey** - Current state and desired future state
+4. **Identify constraints** - Technical limits, brand guidelines, accessibility
+5. **Provide context** - Research insights, competitive analysis
+6. **Set success criteria** - Usability and business metrics
+
+## Output Structure
+
+```markdown
+# Design Brief: [Feature Name]
+
+## Problem Statement
+**In one sentence:** [What user problem are we solving?]
+
+**Context:** 
+[Why does this problem matter? What's the impact on users?]
+
+## Target Users
+
+### Primary Persona
+- **Who:** [User type, role, demographics]
+- **Behavior:** [Relevant behaviors and patterns]
+- **Context:** [When/where they encounter this problem]
+- **Pain points:** [Specific frustrations]
+
+### Secondary Persona (if applicable)
+[Same structure as above]
+
+## User Journey
+
+### Current State (As-Is)
+1. User starts with [situation]
+2. User tries to [action]
+3. User encounters [friction]
+4. User ends up [frustrated/blocked/workaround]
+
+**Pain Points:**
+- [Specific problem 1]
+- [Specific problem 2]
+
+### Desired State (To-Be)
+1. User starts with [situation]
+2. User easily [action]
+3. System helps with [assistance]
+4. User successfully [outcome]
+
+**Key Improvements:**
+- [Improvement 1]
+- [Improvement 2]
+
+## Design Requirements
+
+### Must Have
+- [ ] [Core requirement 1]
+- [ ] [Core requirement 2]
+- [ ] [Core requirement 3]
+
+### Should Have
+- [ ] [Nice-to-have 1]
+- [ ] [Nice-to-have 2]
+
+### Could Have (Future)
+- [ ] [Future enhancement 1]
+- [ ] [Future enhancement 2]
+
+## Constraints
+
+### Technical Constraints
+- [System limitation or requirement]
+- [Technical dependency]
+
+### Brand/Design Constraints
+- Must follow [design system / brand guidelines]
+- Accessibility: [WCAG level, specific requirements]
+
+### Business Constraints
+- Budget: [resource limitation if any]
+- Timeline: [when is this needed]
+
+## Key Interactions
+
+### Primary Actions
+1. **[Action name]:** User needs to [do something] which should [result]
+2. **[Action name]:** User needs to [do something] which should [result]
+
+### States to Design
+- Default/empty state
+- Loading state
+- Success state
+- Error state
+- [Other relevant states]
+
+## Research Insights
+
+### User Feedback
+> "[Direct quote from user research]"
+
+**Key Findings:**
+- [Insight 1 from research]
+- [Insight 2 from research]
+
+**Evidence:**
+- User interviews: [link to synthesis]
+- Data: [relevant metrics or findings]
+
+### Competitive Analysis
+- **[Competitor]:** [How they solve this]
+- **[Competitor]:** [How they solve this]
+
+**Opportunities:**
+[What we can do better or differently]
+
+## Success Metrics
+
+### Usability Metrics
+- [Metric]: Target [X] (e.g., Task completion rate > 90%)
+- [Metric]: Target [Y] (e.g., Time to complete < 30 seconds)
+
+### Business Metrics
+- [Metric]: Target [X]
+- [Metric]: Target [Y]
+
+## Inspiration & References
+
+### Similar Patterns
+- [Existing feature in our product that's similar]
+- [Pattern from design system to reference]
+
+### External References (optional)
+- [Link to similar solution from other products]
+- [Design pattern references]
+
+### Design Files
+- Design reference library: [link if applicable]
+- Related designs: [link to similar features]
+
+## Open Questions for Design
+- [ ] [Question about interaction pattern]
+- [ ] [Question about use case]
+- [ ] [Question about scope]
+
+## Related Documentation
+- Full PRD: [link]
+- User research: [link]
+- Product strategy: [link]
+
+---
+
+*Generated from [source] on [date]*
