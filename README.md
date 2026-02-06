@@ -1,19 +1,23 @@
-# Cursor for Product Managers 
+# Product Manager OS
 
-Welcome to **Cursor for Product Managers**! This repository provides a comprehensive toolkit and framework designed to supercharge your product management workflow using Cursor as an AI-native PM copilot. Originally inspired by the [Maven course on AI-native PMs](https://maven.com/p/0a96cb/cursor-isn-t-just-for-coding-how-ai-native-p-ms-work), the [AI Dev Tasks](https://github.com/snarktank/ai-dev-tasks/tree/main) structured workflow approach, and [Lee Robinson's YouTube video](https://www.youtube.com/watch?v=8QN23ZThdRY), this toolkit transforms Cursor from a coding tool into a powerful product thinking, strategic decision-making, and document creation platform.
+Welcome to **Product Manager OS**! An AI-native operating system for product managers that transforms Cursor into your comprehensive PM copilot.
+
+This repository is forked and extensively customized from [jinjin1/Cursor-for-Product-Managers](https://github.com/jinjin1/Cursor-for-Product-Managers), with major reorganization to support a dual-track continuous discovery workflow and personalized PM toolkit structure.
 
 Stop wrestling with fragmented product management tools and start building a unified, AI-powered PM workspace that grows smarter with every conversation!
 
 ## The Core Idea
 
-Product management involves complex workflows across research, discovery, and delivery. This toolkit aims to bring structure, clarity, and AI-native efficiency to the process by:
+Based on the original [Cursor for Product Managers](https://github.com/jinjin1/Cursor-for-Product-Managers) toolkit, this version has been reorganized into a workflow-based PM operating system that separates reusable tools from active work:
 
-1. **Unified Context Management**: Centralizing all PM knowledge, frameworks, and insights in one AI-accessible workspace
-2. **Structured Discovery**: Leveraging proven frameworks like Continuous Discovery Habits for systematic user research
-3. **AI-Native Workflows**: Using Cursor's capabilities for document-centric work, selective context, and visual diffs
-4. **Iterative Improvement**: Building documents that grow smarter with every AI interaction
+**Key Enhancements:**
+1. **Workflow-Based Organization**: PM toolkit organized by 9 workflow stages (Strategy → Discovery → Planning → Prioritization → Design → Delivery → Experimentation → Analytics → Evals)
+2. **Dual-Track Structure**: Separate discovery and delivery tracks that run in parallel, informed by continuous analytics
+3. **Projects Workspace**: Clear separation between reusable tools (`pm-toolkit/`) and active work (`projects/`)
+4. **Agent Memory System**: Persistent context and decision tracking within initiatives
+5. **Comprehensive Handoffs**: Templates for communicating with all stakeholders (engineering, design, leadership, sales, marketing, customer success)
 
-This approach helps ensure your AI copilot stays on track, makes it easier to manage complex product initiatives, and gives you confidence in AI-generated strategic content.
+This structure maintains the power of AI-native PM workflows while adding enterprise-grade organization and scalability.
 
 ## Product Development Model
 
@@ -154,12 +158,15 @@ Instead of chat-based interactions, work directly in documents that grow smarter
 - **Browse toolkit by stage**: See `pm-toolkit/README.md`
 
 
-## Acknowledgments
+## Credits & Acknowledgments
 
+### Original Repository
+This project is forked from **[jinjin1/Cursor-for-Product-Managers](https://github.com/jinjin1/Cursor-for-Product-Managers)**, which pioneered the concept of using Cursor as an AI-native PM copilot. The original repository provided the foundation for PM-focused prompts and frameworks that this version builds upon.
+
+### Inspiration & Frameworks
 - **[Cursor isn't just for coding: how AI-native PMs work](https://maven.com/p/0a96cb/cursor-isn-t-just-for-coding-how-ai-native-p-ms-work)** - Tal Raviv and Hilary Gridley's course on transforming Cursor into a PM AI copilot
 - **[AI Dev Tasks](https://github.com/snarktank/ai-dev-tasks/tree/main)** - Structured workflow framework for AI-assisted development that inspired our PM workflow approach
-- **[Cursor AI Agents Work Like 10 Developers (Cursor VP Live Demo)](https://www.youtube.com/watch?v=8QN23ZThdRY)** - Lee Robinson demonstrates how Cursor AI agents automate developer tasks.
-
+- **[Cursor AI Agents Work Like 10 Developers (Cursor VP Live Demo)](https://www.youtube.com/watch?v=8QN23ZThdRY)** - Lee Robinson demonstrates how Cursor AI agents automate developer tasks
 - **[Continuous Discovery Habits](https://www.youtube.com/watch?v=9RFaz9ZBXpk)** - Teresa Torres' framework on continuous discovery
 - **[Evidence-Guided](https://www.youtube.com/watch?v=aJWSn-tz3jQ)** - Itamar Gilad's framework on evidence-guided product development
 
