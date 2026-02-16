@@ -22,7 +22,7 @@ and ultimately **propose target opportunities for exploration**.
 ## Input
 - **Primary Source**: Interview snapshots from `projects/initiatives/[name]/interviews/snapshots/`
 - **Secondary Source**: Synthesis documents from `projects/initiatives/[name]/interviews/synthesis/`
-- **Context Source**: All strategic materials from `company-level-context/` (Product Vision, Product Strategy, OKRs, Goals, Team Structure, other company strategy documents, etc.)
+- **Context Source**: All strategic materials from `projects/company-context/` (Product Vision, Product Strategy, OKRs, Goals, Team Structure, other company strategy documents, etc.)
 - **Minimum Requirements**: At least 3-5 interview snapshots or 1 synthesis document
 
 ---
@@ -52,7 +52,7 @@ and ultimately **propose target opportunities for exploration**.
 - **Input Quality Validation**: Verify that snapshots or synthesis meet minimum standards
 - **Research Gaps Identification**: Record missing information that could strengthen opportunity identification
 - **Additional Data Request**: Request more interviews if sample size is insufficient
-- **Context Source Utilization**: Automatically scan and utilize all strategic materials from `company-level-context/` for opportunity prioritization decisions
+- **Context Source Utilization**: Automatically scan and utilize all strategic materials from `projects/company-context/` for opportunity prioritization decisions
 - **Topic Extraction**: Extract main topic from content analysis for semantic filename
 - **File Existence Check**: MANDATORY - Check for existing files with pattern `opportunities-[topic]-v*.md` before creating new file
 - **Version Management**: MANDATORY - Auto-increment version number based on existing files. Never overwrite existing files
@@ -133,7 +133,7 @@ and ultimately **propose target opportunities for exploration**.
 6. **CRITICAL**: Never overwrite existing files - always create new version
 
 ### 0.5) Context Source Analysis (MANDATORY PRE-STEP)
-1. **Automatically scan** all strategic materials in `company-level-context/` directory
+1. **Automatically scan** all strategic materials in `projects/company-context/` directory
 2. **Categorize by file type**: Product Vision, Product Strategy, OKRs, Goals, Team Structure, other strategy documents
 3. **Extract key strategic elements**: vision, goals, priorities, constraints, resource status, etc.
 4. **Set opportunity evaluation criteria**: alignment with company strategy, resource availability, business impact, etc.
@@ -175,7 +175,7 @@ Evaluation criteria through four lenses:
 1. **Opportunity Sizing** — How many customers and how frequently does this occur?  
 2. **Market Factors** — How important is this from a competitive/market trend perspective? (table stakes vs differentiator)  
 3. **Company Factors** — How well does this align with our organizational strategy and capabilities?  
-   - **Context Source Utilization**: Reference specific `company-level-context/` files and strategic elements considered
+   - **Context Source Utilization**: Reference specific `projects/company-context/` files and strategic elements considered
    - **Strategic Alignment**: How opportunity aligns with company vision, goals, OKRs
    - **Resource Considerations**: Team capabilities, resource availability from context
 4. **Customer Factors** — How important is this to customers? What is their satisfaction with existing alternatives?  
@@ -366,7 +366,7 @@ opportunities/
 - [ ] Sufficient interview data available (3+ snapshots or 1 synthesis)
 - [ ] Data quality meets standards from create-interview-snapshots.mdc
 - [ ] Behavioral evidence is concrete and specific
-- [ ] Context sources from company-level-context/ have been scanned and analyzed
+- [ ] Context sources from projects/company-context/ have been scanned and analyzed
 - [ ] Strategic alignment factors have been identified from context documents
 
 ### Opportunity Quality
@@ -400,7 +400,7 @@ opportunities/
 
 ### Before Creating Any Opportunity File:
 1. **Context Source Analysis** ✅
-   - [ ] Scan `company-level-context/` directory for all strategic documents
+   - [ ] Scan `projects/company-context/` directory for all strategic documents
    - [ ] Identify and categorize files: Product Vision, Product Strategy, OKRs, Goals, Team Structure, etc.
    - [ ] Extract key strategic elements: vision, goals, priorities, constraints, resources
    - [ ] Prepare context for opportunity assessment and prioritization
