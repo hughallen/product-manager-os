@@ -70,7 +70,7 @@ Assume the primary reader of the PRD is a **junior developer**. Therefore, requi
 
 ## Output
 
-*   **Format:** Markdown (`.md`)
+*   **Format:** Markdown (`.md`) using `pm-toolkit/3-planning/prd-template.mdc'`
 *   **Location:** `projects/initiatives/[name]/specs/`
 *   **Filename:** `prd-[feature-name].md`
 

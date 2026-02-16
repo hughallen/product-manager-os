@@ -1,3 +1,7 @@
 # Cursor IDE settings
 .cursor/
 .DS_Store
+
+# Design reference screenshots (too large for git)
+projects/initiatives/**/ux-analysis/screenshots/
+**/design-references/
