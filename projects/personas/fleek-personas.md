@@ -1,10 +1,10 @@
 # Fleek Buyer Personas
 
 **Data Sources:** 
+- **Fleek's website** (joinfleek.com) - customer segments and value props
 - Leadership interviews: Hannah (PM), Sanket (Founder)
 - User interview transcripts (qualitative feedback - 5 themes, 13+ quotes)
 - Case study brief
-- Competitive analysis (Depop, Vinted, Grailed, Etsy, eBay)
 
 **Generated:** February 16, 2026  
 **Updates existing:** No - created from scratch for case study
@@ -13,496 +13,450 @@
 
 ## Context
 
-**What I found in project files:**
-- **Existing personas:** None - creating from scratch for case study
-- **Product context:** Fleek - B2B vintage wholesale marketplace (joinfleek.com)
-- **Current user base:** 300,000+ resellers and retailers
-- **Activation challenge:** Strong acquisition, weak activation/retention
+**Fleek's 3 Core Customer Segments (From Website):**
 
-**Product Overview:**
-- Two-sided marketplace: Buyers (resellers/retailers) ↔ Suppliers (1,000+ from 10 countries)
-- B2B focus (wholesale bundles 50-10,000 items, not individual consumers)
-- Supply chain innovation: Western donations → East processing → global resale
-- AI transformation: Fleek Sort (automated grading, 100% inventory online by end March)
-- Revenue model: Commission on transactions, comes from retention not acquisition
+Fleek explicitly defines 3 buyer segments on their website:
 
-**The Activation Problem:**
-New users (particularly new resellers) find platform "overwhelming and don't know where to start." Onboarding launched with "slight lift but nothing meaningful." Need to activate the right users who will retain.
+### 1. "Start reselling vintage on Fleek"
+*"Finding your first supplier is often the hardest part of reselling. Fleek makes it easier with access to 1,000+ verified vintage suppliers. Start small with beginner-friendly bundles, test what sells, and grow at your own pace."*
 
-**What We Know About Current Users (From Interviews):**
+**Key features:**
+- Small minimum order quantities (10-20 pieces) to reduce risk
+- Verified suppliers with ratings and reviews
+- Buyer protection included on every order
 
-**Hannah's Direct Quote:**
-> "We've only really been able to cater to one [buying style], which is our kind of bulk menswear, like brand purchase journeys... A lot of our women's web buyers are very curated in the way that they purchase. They are very kind of aesthetic and style driven."
+### 2. "Scale your reselling business"
+*"Scaling is tough when supply is unreliable. Fleek helps full-time resellers grow with consistent bulk stock and advanced sourcing tools so you can focus on building your shop."*
 
-**Translation:**
-1. **Current platform optimized for:** Bulk menswear buyers (Jordan-type)
-2. **Struggling to activate:** New resellers (Casey-type) - "find it overwhelming and don't know where to start"
-3. **Underserved segment:** Women's wear curators (Taylor-type) - exist but only 20-30% of revenue vs 70% market
+**Key features:**
+- Source high-demand categories (Levi's 501s, Y2K, branded sportswear)
+- Place larger orders for better pricing using Demand Hub
+- Curate bundles with suppliers via live video calls and moodboards with Virtual Handpick
+- Build stronger supplier relationships to improve pricing and margins over time
 
-**The Case Study Focus:**
-Fix activation for **new resellers (Casey)** who are being acquired but not converting to first purchase. 
+### 3. "Wholesale vintage stock for shops & online stores"
+*"Fleek makes sourcing reliable vintage supply simple for retailers and multi-channel businesses. Connect with 1,000+ verified suppliers, plan seasonal drops with Demand Hub, and handpick bundles that match your shop's aesthetic."*
 
-**Persona Summary:**
-- **Casey (Primary Focus):** New resellers struggling to activate - THIS IS THE CASE STUDY
-- **Jordan (Current, Working):** Large retailers activating fine, secondary improvements (web UX)
-- **Taylor (Underserved):** Curated Depop/Instagram resellers - women's wear, hand-picking focus (out of scope)
-- **Riley (Target Opportunity):** Women's boutique owners - NEW COHORT representing 70% market opportunity (out of scope)
+**Key features:**
+- Source wholesale vintage clothing that fits your shop, with transparent grading and representative photos
+- Use Demand Hub to secure consistent stock aligned to your store calendar
+- Handpick with suppliers to curate inventory and strengthen long-term partnerships
 
 ---
 
-# Persona 1: New Reseller (Casey)
+## The Activation Problem
 
-**Role:** First-time reseller / Side hustler  
-**Segment:** Gen Z (16-18 years old), UK/Europe-based  
-**Budget:** £200 (pocket money/savings)  
-**Experience Level:** Beginner - new to wholesale  
-**Persona Type:** Buyer + User (they buy and use the platform)
+**From Hannah (PM):**
+- "New users, particularly those new to reselling entirely, find it overwhelming and don't know where to start"
+- Onboarding launched with "slight lift but nothing meaningful"
+- "Strong acquisition but weak activation/retention"
+
+**The Challenge:** Segment 1 (Beginner Resellers) are being acquired but not converting to first purchase.
+
+**Platform Optimization Gap (Hannah):**
+> "We've only really been able to cater to one [buying style], which is our kind of bulk menswear, like brand purchase journeys... A lot of our women's web buyers are very curated in the way that they purchase. They are very kind of aesthetic and style driven."
+
+**Current State:**
+- **Works well for:** Segment 2 (Scale) - bulk menswear buyers
+- **Activation problem:** Segment 1 (Beginner) - find it overwhelming
+- **Underserved opportunity:** Women's wear buyers with curated aesthetic focus - only 20-30% of revenue vs 70% market opportunity
+
+---
+
+# Persona 1: Beginner Reseller
+
+**Fleek Segment:** "Start reselling vintage on Fleek"  
+**Role:** New to vintage reselling, testing viability  
+**Segment:** 16-25 years old, UK/Europe-based  
+**Budget:** £200-500 first purchase  
+**Experience Level:** New to reselling entirely  
+**Status:** 🔴 ACTIVATION PROBLEM - Case study focus
 
 ## Overview
 
-Casey is a Gen Z entrepreneur wanting to start a reselling business on Depop/Vinted. They've sold personal items before but never purchased wholesale. Fleek lowers barriers, but Casey gets overwhelmed and abandons before first purchase. Digital-native (mobile-first) but new to B2B platforms and wholesale pricing.
+**From Fleek's website:** "Finding your first supplier is often the hardest part of reselling. Fleek makes it easier with access to 1,000+ verified vintage suppliers. Start small with beginner-friendly bundles, test what sells, and grow at your own pace."
+
+New to vintage reselling, wants to start side hustle (Vinted, Depop, eBay, local markets). No wholesale experience. Limited budget. Testing if reselling is viable before committing more money.
+
+**Hannah's insight:** "New users, particularly those new to reselling entirely, find it overwhelming and don't know where to start."
 
 **Behavioral traits:**
+- Risk-averse (small budget, first-time buyer)
 - Browse-first (doesn't know what to search for)
-- Risk-averse (£200 budget = no mistakes)
-- Needs validation (platform looks "like a scam")
-- Price-sensitive (£400-500 bundles exceed budget)
+- Trust-sensitive (needs ratings, reviews, buyer protection)
+- Mobile-first
+- Wants small MOQs (10-20 pieces)
 
-## Use Scenarios (Pragmatic Format)
+## Use Scenarios
 
-| Persona | Goal | Problem | Frequency |
-|---------|------|---------|-----------|
-| Casey | Find first bundle to purchase | Too many options, don't know what will resell, platform overwhelming | First visit (make-or-break) |
-| Casey | Assess if bundle is profitable | Can't see contents clearly, don't know quality, example photos misleading | Every bundle view |
-| Casey | Trust Fleek is legitimate | Platform "screams red flag," bad reviews at top, no visible QC, too good to be true | Pre-purchase (blocks conversion) |
-| Casey | Purchase first bundle with confidence | Minimums (£400-500) exceed budget (£200), can't test with small order | Once (if affordable) |
-| Casey | Understand supplier ratings | Can't figure out what caused low scores, would buy if knew it was just slow shipping | Supplier evaluation |
+| Goal | Problem | Frequency |
+|------|---------|-----------|
+| Find first supplier | Overwhelming choice, don't know where to start | First-time |
+| Test what sells | Don't know which categories/brands work | First 1-3 purchases |
+| Minimize risk | Limited budget (£200-500), can't afford mistakes | Every purchase |
+| Build confidence | Need proof platform is legitimate, not scam | Before first purchase |
 
 ## Jobs-to-be-Done
 
 **Primary:**
-- "When I want to start a reselling business, I want to source quality vintage inventory affordably, so I can make money without traveling to Pakistan."
+- "When I want to start reselling vintage, I want to find a trustworthy first supplier with small MOQs, so I can test if this business works without risking too much money."
 
 **Secondary:**
-- "When I'm new to wholesale, I want to understand what to buy and how much to spend, so I don't waste my savings."
-- "When I'm evaluating inventory, I want to know exactly what's in the bundle, so I can assess if items will sell on Depop."
-- "When I'm skeptical of Fleek, I want to see proof it's legitimate, so I can trust the platform with my money."
-- "When I can't afford large bundles, I want smaller starter options (£50-100), so I can test before committing."
+- "When browsing suppliers, I want to see ratings and reviews, so I know they're legitimate."
+- "When choosing products, I want guidance on what sells, so I don't waste my limited budget."
 
 ## Goals
 
-- Start generating income from reselling
-- Learn how to source profitable inventory
-- Build confidence in buying decisions with limited budget
-- Grow from side hustle to sustainable business
-- Avoid mistakes (can't afford them)
+- Start reselling side hustle with minimal risk
+- Test viability before committing more money
+- Learn what sells before scaling
+- Build confidence in platform/suppliers
 
-## Frustrations
+## Frustrations (From User Feedback)
 
 **Trust & Legitimacy:**
-- Platform looks like a scam at first glance
-- Negative reviews surfaced prominently
-- Quality control not visible/transparent
-- Prices seem "too good to be true" (don't understand wholesale economics)
-- Need human validation before trusting
+- Platform looks like scam/fake
+- Bad reviews visible, no context on ratings
+- "Too good to be true" pricing
+
+**Overwhelming Choice:**
+- Don't know where to start
+- Too many suppliers, categories, options
+- No guidance on what sells
 
 **Financial Risk:**
-- Bundle minimums (£400-500) exceed budget (£200)
-- Can't afford to test platform with small order
-- Mistakes are catastrophic with limited savings
-- Want £50-100 "starter bundles" to de-risk
+- Bundle minimums may exceed budget (£400-500 vs £200)
+- Fear of getting "bad" bundle
+- Can't afford mistakes
 
 **Product Uncertainty:**
-- Example photos misleading (same photo on multiple listings)
-- Don't know bundle contents (sizes, brands, materials, quantity)
-- Can't assess if items will sell on Depop
-- Expectation mismatches (advertised brands don't arrive)
-
-**Overwhelming Experience:**
-- Too many options, don't know where to start
-- No guidance on what to buy
-- Personalization doesn't seem to work (homepage still generic)
-- Don't know what to search for (browse-first behavior)
-
-**Rating Opacity:**
-- Can't understand what drives supplier ratings
-- Would buy from low-rated if knew it was just slow shipping (not quality)
-- Lack of transparency blocks decision-making
+- Example photos misleading
+- Bundle contents unclear
+- Don't know what quality to expect
 
 ## Behaviors
 
 **Triggers:**  
-- Sees others selling vintage on Depop/Instagram
-- Wants side income / entrepreneurship
-- Finds Fleek through social media/word of mouth
+- Want to start reselling side hustle
+- Saw others succeed on Depop/Vinted
+- Need extra income
 
-**Workflow:**
-1. Signup (mobile-first)
-2. Onboarding (completes personalization but no reward)
-3. Homepage (feels generic/overwhelming despite personalization)
-4. Browse bundles (confused by example photos, prices)
-5. View supplier page (sees bad reviews at top)
-6. **Abandons** (overwhelmed + trust barrier + priced out)
+**Current Workflow (Hypothesized):**
+1. Download app / land on website
+2. Browse (overwhelmed by choice)
+3. Try to evaluate suppliers (ratings confusing)
+4. Look at bundles (uncertain about contents)
+5. **DROP OFF** before first purchase
 
-**Frequency:** First visit only - drops off before first purchase (activation problem)
+**Frequency:** One-time (if they don't convert, they churn)
 
 ## Evidence
 
-### ✅ Validated (Leadership Interviews)
-- "New users, particularly those new to reselling entirely, face difficulties getting going on Fleek. They find it overwhelming and don't know where to start." (Case study brief)
-- "We've launched onboarding which has driven a slight lift but nothing meaningful." (Case study brief)
-- "Fleek is actively expanding the market... people come in, they say, 'I started reselling because I could buy a bundle.'" (Sanket)
+### ✅ Validated
+- "New users, particularly those new to reselling entirely, find it overwhelming and don't know where to start" (Hannah)
+- Onboarding "slight lift but nothing meaningful"
+- Website explicitly targets this segment with "small MOQs (10-20 pieces) to reduce risk"
 
-### ✅ Validated (User Research - High Confidence)
-**Financial constraints:**
-> "A lot of the higher priced things are out of my price range because they're such big bundles... if they had smaller bottles which were cheaper, I'd be thinking, all right, okay, I can pick them up… £400-500... not something I can do at the minute."
-
-**Browse-first behavior:**
-> "I don't go on the app knowing what I'm looking for. So when I go on there, I don't know what I'm searching for… so the search to me there's nothing for me to put in."
-
-**Mentions "newer buyers" explicitly:**
-> "For newer buyers, that would be an issue if they expect a bunch of branded jeans and they get one branded jeans instead of five."
-
-### ✅ Validated (User Research - Likely Casey)
-**Trust/scam anxiety:**
-> "It seemed like such a scam to me like just the way it like presented itself… it just screams like red flag to me."
-
-> "It kind of sounded too good to be true… I didn't want to get catfished. It wasn't until I spoke to someone physically that I had the trust to do it."
-
-**Product uncertainty:**
-> "I weren't sure 100%… is the listing I've selected is that just generic and I won't receive the actual items in the photograph."
-
-**Small test orders:**
-> "I don't start with an order of 500 that's just too risky. …When I find a new supplier I would like to try I do a small order of €50 so I can see how does it arrive."
-
-### ⚠️ To Validate with Data
-- What % of signups match Casey profile? (budget indicators, browse behavior)
-- What % are priced out by £400-500 minimums?
-- Does Casey have activation problem or is it Jordan/Taylor?
-- Where exactly do Casey-like users drop off in funnel?
+### ⚠️ To Validate
+- What % of signups are beginners vs experienced resellers?
+- Where exactly do they drop off in funnel?
+- Are they priced out (bundle minimums too high)?
+- Is trust the main blocker?
+- Do they even find the 10-20 piece bundles, or only see large bulk?
 
 ## Product Implications
 
 | Insight | Design Implication |
 |---------|-------------------|
-| Browse-first, don't know what to search | Homepage with curated "Popular with new resellers," category cards, not search-first UI |
-| £200 budget, £400-500 minimums | Starter bundles (£50-100) or surface affordable options prominently |
-| Platform looks like scam | Professional design quality, visible buyer protection, quality control transparency |
-| Bad reviews at top | Adjust review relevance algorithm, don't surface all bad reviews first |
-| Example photos misleading | Leverage Fleek Sort (3 images/item) for bundle transparency, clear "example" labeling |
-| No personalization feedback | Show "Based on your preferences" section immediately after onboarding |
-| Rating opacity | Break down ratings: delivery, quality, communication - enable risk assessment |
-| Overwhelming experience | Progressive disclosure, curated entry points, guided first purchase |
-
-## Quotes (Representative)
-
-> "It seemed like such a scam to me like just the way it like presented itself… it just screams like red flag to me."
-
-> "A lot of the higher priced things are out of my price range... £400-500... if they had smaller bottles which were cheaper, I'd be thinking, all right, okay, I can pick them up."
-
-> "I don't go on the app knowing what I'm looking for... I don't know what I'm searching for."
-
-> "It kind of sounded too good to be true… I didn't want to get catfished. It wasn't until I spoke to someone physically that I had the trust to do it."
+| Overwhelming choice | Guided first purchase flow, personalized recommendations |
+| Trust deficit | Visible buyer protection, rating transparency, social proof |
+| Budget constraints | Surface 10-20 piece bundles prominently for beginners |
+| Product uncertainty | Better bundle previews, representative photos, quality expectations |
+| Don't know what sells | Category guidance, "popular with beginners" tags |
 
 ---
 
-# Persona 2: Large Retailer (Jordan)
+# Persona 2: Scale Reseller
 
-**Role:** Brick-and-mortar vintage shop owner / Large reseller  
-**Segment:** 40-60+ years old, UK/Europe/US-based  
-**Budget:** £10,000-30,000/month  
-**Experience Level:** Expert - established business  
-**Persona Type:** Buyer + User (buys and uses for business)
+**Fleek Segment:** "Scale your reselling business"  
+**Role:** Full-time reseller, established shop  
+**Segment:** 22-35 years old, UK/Europe/US-based  
+**Budget:** £1,000-5,000/month  
+**Experience Level:** Experienced, proven business model  
+**Status:** ✅ ACTIVATING WELL - Platform works for this persona
 
 ## Overview
 
-Jordan owns an established vintage clothing shop (e.g., Brooklyn vintage store) and needs continuous, reliable inventory. Used to travel to Pakistan/Dubai quarterly to source - now uses Fleek for digital sourcing. High-value customer (£10-30k/month) who generates most revenue once activated. Prefers desktop for large transactions, not super tech-savvy.
+**From Fleek's website:** "Scaling is tough when supply is unreliable. Fleek helps full-time resellers grow with consistent bulk stock and advanced sourcing tools so you can focus on building your shop."
+
+Full-time reseller with established Depop/Vinted/eBay shop or market stall. Knows what sells. Needs consistent, reliable supply at scale. Uses advanced features like Demand Hub, Virtual Handpick.
+
+**Key features used:**
+- High-demand categories (Levi's 501s, Y2K, branded sportswear)
+- Larger orders via Demand Hub for better pricing
+- Virtual Handpick (video calls, moodboards with suppliers)
+- Supplier relationship building for better margins
 
 **Behavioral traits:**
-- Search-first (knows specific brands/categories)
-- Business operator (needs continuity and reliability)
-- Desktop preference (£3-5k transactions on laptop)
-- High retention once activated (where Fleek makes money)
+- Search-first (knows what they want)
+- Brand/category focused (Levi's 501s, Nike, Carhartt)
+- Volume buyer (100-500 pieces per order)
+- Supplier relationship focus
+- Mobile or web (depends on order size)
 
-## Use Scenarios (Pragmatic Format)
+## Use Scenarios
 
-| Persona | Goal | Problem | Frequency |
-|---------|------|---------|-----------|
-| Jordan | Restock shop with bulk inventory | Web experience poor, forced to app, but prefers laptop for large spends | Weekly |
-| Jordan | Place £3-5k order with confidence | Limited product views on web, can't inspect at scale | Weekly |
-| Jordan | Track order status and delivery | No tracking visibility, blind spot in supply chain | Per order (ongoing anxiety) |
-| Jordan | Find specific items (brand/category) | Search not effective enough, results not relevant | Daily browsing |
-| Jordan | Build reliable supplier relationships | Want repeat suppliers, priority access, consistent quality | Ongoing (business continuity) |
-| Jordan | Understand supplier reliability | Rating system confusing, can't assess delivery vs quality vs communication | Supplier evaluation |
+| Goal | Problem | Frequency |
+|------|---------|-----------|
+| Source consistent supply | Can't rely on one-off suppliers | Weekly/bi-weekly |
+| Maximize margins | Need volume discounts and supplier relationships | Every purchase |
+| Curate inventory | Want specific brands/styles, not random bulk | Per order |
+| Plan inventory | Need to align with sales cycles, seasonality | Monthly |
 
 ## Jobs-to-be-Done
 
 **Primary:**
-- "When I need to restock my shop, I want to source bulk inventory quickly and reliably, so I maintain continuous sales without travel."
+- "When I need to restock my shop, I want to source 100-500 pieces of high-demand categories at volume pricing, so I maintain consistent supply and margins."
 
 **Secondary:**
-- "When I'm spending £3-5k on a transaction, I want to browse on my laptop with detailed views, so I can make confident large purchases."
-- "When I find a good supplier, I want to build a relationship and get priority access, so I have consistent quality supply."
-- "When I need specific items (10,000 Lululemon leggings), I want to communicate my needs, so suppliers can fulfill custom requests."
-- "When my order is in transit, I want to track it, so I can plan inventory management and customer commitments."
+- "When sourcing inventory, I want to curate with suppliers (video calls, moodboards), so I get exactly what fits my shop's needs."
+- "When scaling my business, I want to build long-term supplier relationships, so I get priority access and better pricing."
 
 ## Goals
 
-- Maintain continuous inventory flow (business continuity)
-- Source quality items at profitable margins
-- Build reliable supplier relationships
-- Scale business without travel overhead (used to go to Pakistan quarterly)
-- Minimize risk with large purchases
+- Maintain consistent inventory flow
+- Maximize profit margins through volume and relationships
+- Curate for specific customer demand
+- Scale business predictably
 
 ## Frustrations
 
-**Web Platform:**
-- Platform pushes to app, but prefers laptop for £3-5k transactions
-- Desktop experience poor, not optimized for large transactions
-- Big spenders (like Jordan) get worse experience
-
-**Operational:**
-- Lack of order tracking (can't see delivery status)
-- Search limitations (doesn't surface right inventory)
-- No supplier relationship tools (want repeat suppliers, priority access)
-
-**Trust & Transparency:**
-- Rating system confusing (same as Casey, but different stakes)
-- Product uncertainty (even at scale, wants bundle clarity)
-- Quality expectations not set upfront
+- Supply unreliability (before Fleek)
+- Quality consistency across suppliers
+- Finding the right supplier relationships
+- Pricing transparency
 
 ## Behaviors
 
 **Triggers:**
-- Regular inventory restocking needs (business operations)
-- Seasonal demand (need specific categories)
-- Supplier relationship development
+- Regular restocking needs (weekly/bi-weekly)
+- Seasonal demand shifts
+- Specific customer requests
 
 **Workflow:**
-1. Desktop browse (weekly)
-2. Search specific brands/categories
-3. Evaluate suppliers (ratings, past purchases)
-4. Message suppliers for custom requests
-5. Place large order (£3-5k)
-6. **Returns weekly** (high retention)
+1. Search specific categories/brands (Levi's 501s, Y2K, Nike)
+2. Filter by supplier ratings, past purchases
+3. Use Demand Hub for larger orders with better pricing
+4. Virtual Handpick with trusted suppliers
+5. Place order (100-500 pieces)
+6. Repeat with same suppliers
 
-**Frequency:** Weekly active, monthly large purchases
+**Frequency:** Weekly to bi-weekly
 
 ## Evidence
 
-### ✅ Validated (Leadership Interviews)
-- "Big spenders (£3-5k transactions) prefer laptop browsing. Older demographics (40-60+ shop owners) less mobile-native." (Hannah)
-- "Some of our retailers are buying 10,000 pairs of Lululemon leggings in one go." (Hannah)
-- "Used to require travel to Pakistan/Dubai - now digital" (Sanket)
-- "Revenue comes from retention" - high LTV customers (Sanket)
+### ✅ Validated
+- Platform features built for this segment (Demand Hub, Virtual Handpick)
+- Website explicitly targets with "larger orders for better pricing," "build supplier relationships"
+- Hannah: Platform currently serves bulk buyers well
 
-### ✅ Validated (User Research - High Confidence)
-**Desktop preference:**
-> "I think on desktop it's not the best. I think it definitely needs improved... But fleek's kind of one that always pops up because it's so easy to kind of find what you're looking for."
-
-### ✅ Validated (Universal - Affects Jordan Too)
-**Rating confusion:**
-> "In terms of understanding the star rating, I don't know... It's hard to differentiate between like a mediocre order and a very good order."
-
-### ⚠️ To Validate with Data
-- Does Jordan have activation problem or retention problem?
-- What % of signups match Jordan profile?
-- Is web experience blocking activation or just hurting retention?
+### ⚠️ To Validate
+- What % of users are in this segment?
+- Activation rate for Scale vs Beginner?
+- Do they churn, or do they retain well?
 
 ## Product Implications
 
 | Insight | Design Implication |
 |---------|-------------------|
-| Desktop preference for large spends | Invest in web experience, don't force to app |
-| Search-first behavior | Optimize search for brands/categories, not just browse |
-| Need supplier relationships | Supplier following, repeat supplier tools, priority access |
-| Order tracking blind spot | Post-purchase visibility, delivery tracking |
-| High LTV once activated | Retention focus, not just activation |
-| Rating opacity (universal) | Rating breakdown affects all personas - fix it |
-
-## Quotes
-
-> "Big spenders (£3-5k transactions) prefer laptop browsing. Older demographics (40-60+ shop owners) less mobile-native." — Hannah
-
-> "I think on desktop it's not the best. I think it definitely needs improved."
+| Consistent supply needs | Demand Hub for planned, larger orders |
+| Curation at scale | Virtual Handpick (video, moodboards) |
+| Relationship building | Supplier favorites, repeat purchase incentives |
+| Volume pricing | Transparent bulk discounts |
 
 ---
 
-# Persona 2B: Women's Wear Curator (Taylor) - FUTURE OPPORTUNITY
+# Persona 3: Wholesale Retailer
 
-**Role:** Curated vintage reseller (Depop, Instagram-based)  
-**Segment:** 25-35 years old, UK/Europe-based  
-**Budget:** £500-2,000/month  
-**Experience Level:** Intermediate - established aesthetic/brand  
-**Persona Type:** Buyer + User  
-**Status:** ⚠️ UNDERSERVED - Exists but platform not optimized for them
+**Fleek Segment:** "Wholesale vintage stock for shops & online stores"  
+**Role:** Physical shop owner or multi-channel business  
+**Segment:** 30-55 years old, UK/Europe/US-based  
+**Budget:** £3,000-15,000/month  
+**Experience Level:** Established retail business  
+**Status:** ✅ TARGETED SEGMENT - Platform built for them
 
 ## Overview
 
-Taylor sells curated vintage on Depop/Instagram with a specific aesthetic (Y2K, cottagecore, etc.). Currently represents only 20-30% of Fleek's revenue despite women's wear being 70% of fashion market. **Not interested in bulk menswear bundles** - wants to hand-pick individual pieces. Platform hasn't been able to serve this persona effectively yet.
+**From Fleek's website:** "Fleek makes sourcing reliable vintage supply simple for retailers and multi-channel businesses. Connect with 1,000+ verified suppliers, plan seasonal drops with Demand Hub, and handpick bundles that match your shop's aesthetic."
 
-**Key insight from Hannah:** "We've only really been able to cater to bulk menswear buyers... women's wear buyers are very curated, want 100 pieces they've specifically chosen themselves."
+Owns physical vintage shop or runs multi-channel business (shop + online). Needs wholesale volumes with shop aesthetic coherence. Plans seasonal drops, manages inventory calendar. Uses Demand Hub for planning, handpick for curation.
 
-**Fleek Sort Unlock:** Individual piece purchasing with 3 images per item (rolling out end of March) will enable Taylor's use case for the first time.
+**Key features used:**
+- Wholesale volumes with transparent grading and representative photos
+- Demand Hub to secure stock aligned to store calendar
+- Handpick with suppliers to curate and strengthen partnerships
+- Long-term supplier relationships
 
 **Behavioral traits:**
-- Aesthetic-driven (brand consistency matters)
-- Hand-pick focus (not bulk)
-- Visual discovery (browse by style, not search)
-- Medium budget (£500-2k/month)
+- Desktop-first (large transactions, planning)
+- Seasonal planning focus
+- Shop aesthetic coherence matters
+- Volume + curation (not just bulk)
+- Business operator mindset
 
-## Use Scenarios (Pragmatic Format)
+## Use Scenarios
 
-| Persona | Goal | Problem | Frequency |
-|---------|------|---------|-----------|
-| Taylor | Hand-pick pieces matching aesthetic | Platform optimized for bulk only, can't select individual items | Would be weekly if possible |
-| Taylor | Browse women's wear inventory | Women's wear underserved, mostly menswear on platform | Currently limited |
-| Taylor | Build custom curated bundle | Forced into bulk bundles, can't cherry-pick specific pieces | Would do per session if possible |
-| Taylor | Ensure authenticity for resale | Need authentication for Depop credibility | Every purchase |
+| Goal | Problem | Frequency |
+|------|---------|-----------|
+| Plan seasonal inventory | Need to align supply with store calendar and drops | Quarterly/seasonal |
+| Maintain shop aesthetic | Can't have random bulk, needs coherent curation | Every purchase |
+| Source wholesale volumes | Need 500-2,000 pieces for shop restocking | Monthly |
+| Build supplier partnerships | Want reliable, repeat suppliers who understand shop needs | Ongoing |
 
 ## Jobs-to-be-Done
 
 **Primary:**
-- "When I need inventory for my curated shop, I want to hand-pick individual pieces that match my aesthetic, so my brand stays consistent."
+- "When planning my seasonal inventory, I want to secure wholesale volumes (500-2,000 pieces) that fit my shop's aesthetic, so I can maintain brand consistency and meet customer expectations."
 
 **Secondary:**
-- "When browsing inventory, I want to see detailed photos (3 angles) and item details, so I can assess fit with my aesthetic."
-- "When I find pieces I love, I want to purchase them individually or build custom bundles, so I'm not stuck with unwanted items."
+- "When sourcing inventory, I want to handpick with suppliers who understand my shop's needs, so I get coherent collections, not random bulk."
+- "When managing supply chain, I want long-term partnerships with verified suppliers, so I have reliable, quality inventory flow."
 
 ## Goals
 
-- Maintain consistent brand aesthetic
-- Source unique, standout pieces
-- Build custom collections
-- Differentiate from bulk resellers
+- Reliable wholesale supply chain
+- Maintain shop aesthetic and brand
+- Plan seasonal drops effectively
+- Build supplier partnerships for quality and priority
 
 ## Frustrations
 
-- **Current platform doesn't serve this persona:** Optimized for bulk menswear, not curated women's wear
-- **Can't hand-pick:** No individual item selection (yet)
-- **Women's wear underserved:** Only 20-30% of Fleek revenue despite 70% market opportunity
+- Supply chain unreliability
+- Quality consistency at wholesale volumes
+- Aesthetic coherence in bulk orders
+- Supplier trustworthiness
 
-## Behaviors (Hypothesized - Limited Data)
+## Behaviors
 
-**Triggers:**  
-- Need inventory that matches curated aesthetic
-- Depop/Instagram shop needs restocking
+**Triggers:**
+- Seasonal planning cycles
+- Shop restocking needs
+- New collection launches
 
-**Current Workflow:**
-- May not use Fleek at all (not designed for them)
-- OR buys bulk and sorts out unwanted items (workaround)
+**Workflow:**
+1. Plan seasonal needs (Demand Hub)
+2. Search suppliers by category, ratings, past purchases
+3. Handpick bundles (video calls, moodboards)
+4. Place large orders (500-2,000 pieces)
+5. Build repeat supplier relationships
+6. Track shipments, inventory flow
 
-**Frequency:** Would be weekly if experience supported it
+**Frequency:** Monthly to quarterly
 
 ## Evidence
 
-### ✅ Validated (Leadership Interviews)
-- "Women's market is 70% of fashion revenue but only 20-30% of Fleek revenue" (Hannah)
-- "Women's wear buyers are very curated... want 100 pieces they've specifically chosen themselves... very aesthetic and style driven" (Hannah)
-- **"We've only been able to cater to bulk menswear buyers"** (Hannah) - Platform not designed for Taylor yet
-- Fleek Sort (end March) will enable individual piece purchasing with 3 images per item
+### ✅ Validated
+- Website explicitly targets "retailers and multi-channel businesses"
+- Features built for this (Demand Hub for planning, handpick for curation)
+- Hannah mentioned desktop preference for "big spenders (£3-5k transactions)"
 
-### ⚠️ Unknown - Need Data
-- What % of current signups match Taylor profile?
-- Are they dropping off during activation? Or not even trying Fleek?
-- Is this an activation problem or acquisition/product-market-fit problem?
-- Will Fleek Sort rollout unlock Taylor cohort?
+### ⚠️ To Validate
+- What % of users are wholesale retailers?
+- Do they activate well?
+- Desktop experience adequate for their needs?
 
-### 🔮 Future Persona Status
-This persona represents **future opportunity**, not current activation problem. Fleek Sort (end March 2026) will unlock hand-picking for first time, enabling Taylor use case.
-
-**For Case Study:** Taylor is NOT the primary focus (that's Casey activation). Mention as future opportunity if Fleek Sort enables new market segment.
-
-## Product Implications (Post-Fleek Sort)
+## Product Implications
 
 | Insight | Design Implication |
 |---------|-------------------|
-| Hand-pick focus | Individual item selection powered by Fleek Sort (end March) |
-| Visual discovery | Browse by aesthetic/style with 3 images per item |
-| Women's wear gap | 70% market opportunity unlocked by Fleek Sort |
-| Curated bundles | Custom bundle builder, not fixed bulk bundles |
-| **Timeline:** Post-March 2026 (after Fleek Sort rollout) |
+| Seasonal planning | Demand Hub for calendar-aligned sourcing |
+| Shop aesthetic coherence | Handpick with suppliers, curated bundles |
+| Large transactions | Desktop experience optimization |
+| Long-term partnerships | Supplier relationship tools, favorites, priority access |
 
 ---
 
-# Persona 3: Female Brick-and-Mortar Shop Owner (Riley) - POTENTIAL NEW COHORT
+# Persona 4: Women's Boutique Owner - OPPORTUNITY
 
-**Role:** Women's vintage boutique owner  
-**Segment:** 35-50 years old, UK/Europe/US-based  
-**Budget:** £3,000-10,000/month  
-**Experience Level:** Established business owner  
-**Persona Type:** Buyer + User  
-**Status:** 🔮 TARGET OPPORTUNITY - Not currently served well by platform
+**Role:** Women's vintage boutique owner (curated aesthetic)  
+**Segment:** 30-50 years old, UK/Europe/US-based  
+**Budget:** £2,000-8,000/month  
+**Experience Level:** Established business  
+**Status:** 🔮 UNDERSERVED OPPORTUNITY - 70% market, 20-30% of Fleek revenue
 
 ## Overview
 
-Riley owns a women's vintage boutique with a physical storefront. Needs continuous inventory but with more curation than Jordan's bulk menswear approach. Represents the bridge between Jordan (large volume, less curation) and Taylor (highly curated, smaller volume). This is the demographic Hannah mentioned: women's wear is 70% of fashion market but only 20-30% of Fleek's current revenue.
+**Hannah's insight:** "Women's market is 70% of fashion revenue but only 20-30% of Fleek revenue... Women's wear buyers are very curated in the way that they purchase. They are very kind of aesthetic and style driven... We've only really been able to cater to bulk menswear buyers."
 
-**Key behavioral traits:**
-- Business operator (like Jordan) but women's wear focus (like Taylor)
-- Needs volume (100-500 pieces) but with curation
-- Desktop preference for purchasing (large transactions)
-- Established relationships with suppliers
+Owns women's vintage boutique (physical shop or online) with strong aesthetic identity (Y2K, boho, cottagecore, etc.). Needs wholesale volumes but with HIGH curation focus - much more selective than general wholesale. Platform currently optimized for bulk menswear, not curated women's wear.
 
-**Why This Persona Matters:**
-This could be the unlock for the 70% market opportunity. Riley needs:
-- Volume (more than Taylor's hand-picking)
-- Curation (more than Jordan's bulk menswear)
-- Women's wear focus
-- Business continuity (like Jordan)
+**The Gap:**
+- Platform serves bulk menswear well (Segment 2 & 3)
+- Women's wear buyers need curation + volume + aesthetic coherence
+- Only 20-30% of revenue despite 70% market opportunity
 
-## Use Scenarios (Pragmatic Format)
+**Behavioral traits:**
+- Highly aesthetic-driven (brand identity critical)
+- Women's wear focus (not menswear)
+- Curation at volume (100-500 pieces, but very selective)
+- Desktop preference (large purchases)
+- Visual discovery (browse by style, era, aesthetic)
 
-| Persona | Goal | Problem | Frequency |
-|---------|------|---------|-----------|
-| Riley | Source curated women's wear in volume | Platform focused on bulk menswear, women's wear limited | Weekly |
-| Riley | Maintain consistent shop aesthetic | Can't filter effectively for style/era (Y2K, boho, etc.) | Per sourcing session |
-| Riley | Purchase 100-500 curated pieces | Too small for Jordan's 10k orders, too large for Taylor's hand-picking | Weekly |
-| Riley | Build supplier relationships in women's wear | Don't know which suppliers specialize in women's premium brands | Ongoing |
+## Use Scenarios
+
+| Goal | Problem | Frequency |
+|------|---------|-----------|
+| Source curated women's wear | Platform focused on bulk menswear | Weekly/monthly |
+| Maintain boutique aesthetic | Can't filter by style/era effectively | Every purchase |
+| Purchase 100-500 curated pieces | Either too bulk (random) or too small (hand-pick) | Per seasonal cycle |
+| Find women's wear specialists | Don't know which suppliers specialize in women's premium brands | Ongoing |
 
 ## Jobs-to-be-Done
 
 **Primary:**
-- "When I need to restock my women's boutique, I want to source 100-500 curated pieces efficiently, so I maintain consistent aesthetic without hand-picking every item."
+- "When I need to restock my women's boutique, I want to source 100-500 curated pieces that match my shop's aesthetic (Y2K, boho, etc.), so I maintain brand consistency without hand-picking every single item."
 
 **Secondary:**
-- "When browsing suppliers, I want to know who specializes in women's wear, so I don't waste time on menswear suppliers."
-- "When purchasing in volume, I want more curation than bulk but more efficiency than hand-picking, so I balance time and quality."
+- "When browsing suppliers, I want to know who specializes in women's wear with specific aesthetics, so I don't waste time on menswear or irrelevant suppliers."
+- "When purchasing, I want more curation than bulk but more efficiency than hand-picking individual pieces, so I balance time and quality."
 
 ## Goals
 
-- Maintain women's boutique aesthetic
-- Source volume efficiently (100-500 pieces)
-- Build supplier relationships in women's wear category
-- Compete with online-only curators (like Taylor on Depop)
+- Maintain strong boutique aesthetic identity
+- Source women's wear in volume (100-500 pieces)
+- Find suppliers who understand curated women's wear
+- Differentiate from fast fashion and bulk resellers
 
 ## Frustrations
 
-- **Platform optimized for menswear:** Bulk buyers get menswear, curators not served at scale
+- **Platform optimized for menswear:** Bulk buyers get menswear (Levi's, Nike, etc.), not women's premium brands
 - **Women's wear underserved:** Only 20-30% of platform revenue
-- **No middle ground:** Either bulk (10k items) or hand-pick (individual pieces), no curated volume option
-- **Supplier specialization unclear:** Don't know who focuses on women's wear
+- **Curation gap:** Either bulk (random) or hand-pick (too time-consuming), no middle ground
+- **Aesthetic filtering:** Can't effectively browse by style/era (Y2K, boho, cottagecore)
+- **Supplier specialization:** Don't know who focuses on women's wear
 
 ## Evidence
 
 ### ✅ Validated (Market Opportunity)
 - "Women's market is 70% of fashion revenue but only 20-30% of Fleek revenue" (Hannah)
-- Gap between market size and Fleek's capture suggests underserved segment
-- Fleek Sort (end March) enables this better by showing individual items within bundles
+- "Women's wear buyers are very curated... want 100 pieces they've specifically chosen themselves... very aesthetic and style driven" (Hannah)
+- "We've only been able to cater to bulk menswear buyers" (Hannah)
+- Gap between market size (70%) and Fleek capture (20-30%) = underserved
 
 ### ⚠️ To Validate
-- Does Riley persona exist in current user base?
-- Or is this purely acquisition gap (they don't know about Fleek)?
-- Would Riley activate if women's wear inventory and curation tools existed?
-- What % of women's wear buyers are Riley vs Taylor?
+- Do these buyers exist in current user base?
+- Are they dropping off during activation?
+- Or is this acquisition gap (they don't know about Fleek)?
+- Would they activate if women's wear inventory and curation tools existed?
+- What % of women's wear buyers fit this profile vs Persona 2 (Scale)?
 
 ### 🔮 Future Opportunity
-**When unlocked:** Post-Fleek Sort rollout (end March 2026)
+**When unlocked:** Post-Fleek Sort rollout (end March 2026) enables better curation
 **Product needs:** 
-- Women's wear category expansion
-- Curated bundles (100-500 items with aesthetic coherence)
-- Supplier specialization visibility
-- Style/era filtering
+- Women's wear category expansion (supplier recruitment)
+- Aesthetic/style filtering (Y2K, boho, cottagecore, etc.)
+- Curated bundles (100-500 pieces with aesthetic coherence)
+- Supplier specialization visibility (who focuses on women's premium)
 
 **Business Impact:** Could unlock 50%+ revenue growth by capturing 70% fashion market share
 
@@ -510,139 +464,117 @@ This could be the unlock for the 70% market opportunity. Riley needs:
 
 | Insight | Design Implication |
 |---------|-------------------|
-| Needs volume + curation | "Curated bundles" - 100-500 items with aesthetic coherence |
-| Women's wear focus | Category expansion, supplier specialization |
-| Desktop preference | Same as Jordan - web experience investment |
-| Supplier relationships | Who specializes in women's premium brands (not menswear) |
+| Aesthetic-driven curation | Style/era filtering, visual browse (Y2K, boho, etc.) |
+| Women's wear focus | Supplier specialization tags, category expansion |
+| Curation at volume | "Curated bundles" - 100-500 pieces with aesthetic coherence |
+| Premium women's brands | Supplier recruitment for women's wear specialists |
 
 ## For Case Study
 
-**Riley is OUT OF SCOPE but important context:**
+**This persona is OUT OF SCOPE but important strategic context:**
 - Represents 70% market opportunity
-- Not an activation problem (product-market-fit gap)
-- Mention as "future unlock" after Fleek Sort enables better women's wear experience
-- Shows strategic thinking: solve Casey activation now, unlock Riley market later
-
----
-
-# Anti-Persona: Casual Consumer
-
-**Who:** Individual consumers buying clothes for personal use (not resale)  
-**Why Not:** Fleek is B2B wholesale (bulk/bundles), not B2C retail (individual items for personal wear)  
-**Risk if We Target Them:** 
-- Dilutes platform for core reseller/retailer audience
-- Wrong pricing (wholesale, not retail)
-- Wrong packaging (bundles of 50-500 items, not single pieces)
-- Wrong messaging (business language, not consumer)
+- NOT an activation problem (product-market-fit gap - platform not built for them yet)
+- Mention as "future unlock" after Fleek Sort and women's wear expansion
+- Shows strategic thinking: solve Persona 1 activation now, unlock Persona 4 market later
 
 ---
 
 # Persona Comparison
 
-| Attribute | Casey (New Reseller) | Jordan (Large Retailer) | Taylor (Curated Reseller) | Riley (Women's Boutique) |
-|-----------|---------------------|------------------------|-------------------------|------------------------|
-| **Status** | 🔴 Current - activation problem | ✅ Current - high retention | ⚠️ Underserved | 🔮 Target opportunity |
-| **Segment** | Gen Z, 16-18 | Established, 40-60+ | Millennial, 25-35 | Established, 35-50 |
-| **Budget** | £200 | £10-30k/month | £500-2k/month | £3-10k/month |
-| **Business type** | Starting reselling | Established retail/market | Depop/Instagram curator | Physical boutique |
-| **Primary goal** | Start reselling business | Continuous menswear supply | Curated aesthetic inventory | Curated women's wear volume |
-| **Key pain** | Overwhelming + trust + priced out | Poor web experience | Platform not built for hand-picking | Women's wear underserved |
-| **Behavior** | Browse-first, mobile | Search-first, desktop | Visual discovery, mobile/web | Search-first, desktop |
-| **Current usage** | Drop off before first purchase | Weekly, high retention | Low/none | Unknown (may not exist) |
-| **Activation challenge** | **HIGH** (case study focus) | ✅ Low (activates well) | N/A (PMF gap) | N/A (PMF gap) |
-| **LTV** | Low-Medium (if they grow) | **Very High** (£10-30k/month) | Medium (£500-2k/month) | High (£3-10k/month) |
-| **Revenue** | Future (if activate + retain) | **Now** (already high-value) | **Opportunity** (70% market) | **Opportunity** (70% market) |
-| **Case study relevance** | PRIMARY FOCUS | Secondary (web UX) | Out of scope (future) | Out of scope (future) |
+| Attribute | Persona 1: Beginner | Persona 2: Scale | Persona 3: Wholesale | Persona 4: Women's Boutique |
+|-----------|---------------------|------------------|----------------------|----------------------------|
+| **Fleek Segment** | "Start reselling" | "Scale your business" | "Wholesale for shops" | (Opportunity) |
+| **Status** | 🔴 Activation problem | ✅ Works well | ✅ Targeted | 🔮 Underserved (70% market) |
+| **Age** | 16-25 | 22-35 | 30-55 | 30-50 |
+| **Budget** | £200-500 | £1,000-5,000/month | £3,000-15,000/month | £2,000-8,000/month |
+| **Business type** | Side hustle (starting) | Full-time reseller | Physical/multi-channel shop | Women's boutique |
+| **MOQ needs** | 10-20 pieces (testing) | 100-500 pieces | 500-2,000 pieces | 100-500 pieces (curated) |
+| **Key focus** | Minimize risk, test viability | Consistent supply, margins | Seasonal planning, wholesale | Aesthetic curation, women's wear |
+| **Key pain** | Overwhelming, trust, priced out | Supply reliability | Shop aesthetic coherence | Women's wear underserved |
+| **Behavior** | Browse-first, mobile | Search-first, mobile/web | Desktop-first, planning | Visual browse, desktop |
+| **Features used** | Basic browse, ratings | Demand Hub, Virtual Handpick | Demand Hub, Handpick, planning | (Would need: aesthetic filters) |
+| **Platform fit** | ❌ Poor (activation problem) | ✅ Good (bulk menswear) | ✅ Good (wholesale features) | ⚠️ Gap (menswear-optimized) |
+| **Activation challenge** | **HIGH** - case study focus | Low - activates well | Low - targeted well | N/A - product gap, not activation |
+| **LTV** | Low-Medium (if they scale) | High (£1-5k/month) | **Very High** (£3-15k/month) | High (£2-8k/month) |
+| **Revenue** | Future (if activate + retain) | **Now** (proven segment) | **Now** (high-value) | **Opportunity** (70% market) |
+| **Case study relevance** | **PRIMARY FOCUS** | Secondary (benchmark) | Secondary (benchmark) | Out of scope (strategic future) |
 
 ---
 
-# Activation Problem - Root Causes (Casey Focus)
+# Activation Problem - Root Causes (Persona 1 Focus)
 
 ## Current Understanding
 
 **The Problem (From Leadership):**
+- "New users, particularly those new to reselling entirely, find it overwhelming and don't know where to start" (Hannah)
+- Onboarding "slight lift but nothing meaningful"
 - "Strong acquisition but weak activation/retention"
-- **"New users, particularly those new to reselling entirely,"** find it overwhelming (Hannah)
-- "Onboarding launched with slight lift but nothing meaningful"
 - "Pouring water into a leaky bucket"
 
 **Who Has the Problem:**
-- **Primary:** Casey (new resellers) - confirmed activation struggle
-- **Secondary:** Possibly Jordan (if desktop experience blocks activation)
-- **Out of Scope:** Taylor (women's wear) - not an activation problem, it's a product-market-fit gap (platform not built for hand-picking yet)
+- **Primary:** Persona 1 (Beginner Resellers) - confirmed activation struggle
+- **Working Well:** Persona 2 (Scale), Persona 3 (Wholesale) - platform built for them
+- **Out of Scope:** Persona 4 (Women's Boutique) - not activation problem, it's product-market-fit gap
 
 **User feedback themes (see [`fleek-user-feedback-mapping.md`](./fleek-user-feedback-mapping.md)):**
 
 1. **Trust & Legitimacy** - Platform looks like scam, bad reviews visible, QC not transparent
-2. **Financial Risk** - Bundle minimums may exceed budgets (£400-500 vs £200)
+2. **Financial Risk** - Bundle minimums may exceed budgets (£400-500 vs £200-500)
 3. **Product Uncertainty** - Example photos misleading, bundle contents unclear
 4. **Supplier Rating Opacity** - Can't understand what drives ratings
-5. **Search/Browse Friction** - Browse-first vs search-first UI mismatch
+5. **Search/Browse Friction** - Browse-first users (Persona 1) vs search-first UI
 
 ## Critical Unknowns (Need Data to Answer)
 
 **Persona Validation:**
-1. What % of signups match Casey vs Jordan vs Taylor/Riley profile?
-2. Which persona has the activation problem? (Hypothesis: primarily Casey)
-3. Do Taylor/Riley personas exist in user base, or is it acquisition gap?
+1. What % of signups match Persona 1 vs 2 vs 3?
+2. Does Persona 1 have significantly worse activation than Persona 2/3?
+3. At what budget level do users successfully activate?
 
 **Funnel Diagnosis:**
-4. Where do users drop off? (Signup → Onboarding → Browse → Cart → Checkout)
+4. Where does Persona 1 drop off? (Signup → Browse → Supplier Page → Bundle Page → Cart → Checkout)
 5. What % complete each stage?
-6. Does drop-off point vary by persona?
+6. Do they even find the 10-20 piece bundles mentioned on website?
 
 **Root Cause Validation:**
-7. Are users priced out? (What % view only expensive bundles then drop?)
-8. Is trust the blocker? (Do users who view reviews convert less?)
-9. Does personalization work? (Do users who complete it convert more?)
-10. Is it desktop vs mobile? (Does platform preference matter?)
+7. Are they priced out? (Do they only see £400+ bundles when budget is £200-500?)
+8. Is trust the blocker? (Do users who view reviews/ratings convert less?)
+9. Is it overwhelming choice? (Do users browse but never click into suppliers?)
+10. Does personalization help? (Do users who complete onboarding convert more?)
 
 **Opportunity Sizing:**
-11. If we improve activation by 20-30%, what's revenue impact?
-12. Which persona improvements have highest ROI?
+11. If we improve Persona 1 activation by 20-30%, what's revenue impact?
+12. What % of signups are Persona 1 vs 2/3? (Prioritization decision)
 
 ## Next Steps for Case Study
 
 1. **Data Analysis (24 hours before interview):**
-   - Segment users by behavior (Casey/Jordan/Taylor indicators)
-   - Map funnel drop-offs
-   - Validate which persona has activation problem
-   - Prioritize root causes by impact
+   - Segment users by persona indicators (budget, behavior, order size)
+   - Map Persona 1 funnel drop-offs
+   - Validate root causes (pricing, trust, overwhelming)
+   - Compare Persona 1 vs 2/3 activation rates
 
-2. **Solution Design (Live interview):**
-   - Address top 2-3 blockers validated by data
-   - Show experiment-driven approach
-   - 6-week roadmap with 2 engineers
-   - Leverage Fleek Sort opportunity (March timing)
-
-3. **Success Metrics:**
-   - Define activation (7-day? 30-day? first purchase?)
-   - Set baselines and targets
-   - Track retention (not just activation)
-
----
-
-## Suggested Next Steps
-
-- [x] Save to `/projects/personas/fleek-personas.md`
-- [ ] Run data analysis to validate persona segmentation
-- [ ] Map user feedback quotes to behavioral segments
-- [ ] Define activation metrics and baselines
-- [ ] Prioritize which persona to focus on based on business impact
+2. **Case Study Presentation:**
+   - Focus on Persona 1 activation problem
+   - Use Persona 2/3 as "what good looks like"
+   - Mention Persona 4 as strategic opportunity (out of scope)
+   - Data-driven prioritization of solutions
 
 ---
 
 ## Framework Reference
 
-Combines **Pragmatic Institute personas** with **Jobs-to-be-Done**:
-- Behavioral focus (what users DO, not just demographics)
-- Use scenarios (Persona + Goal + Problem + Frequency)
-- Evidence-based (grounded in research, flags assumptions)
-- Product implications (every insight informs decisions)
-- Anti-personas (maintain focus on who NOT to serve)
+**Pragmatic Institute Persona Structure:**
+- Buyer vs User personas (role-based)
+- Use Scenarios (goal, problem, frequency)
+- Buying Process Map (triggers, workflow, frequency)
 
-**Sources:**
-- Leadership interviews (Hannah PM, Sanket Founder)
-- User research transcripts (13+ quotes across 5 themes)
-- Competitive analysis (Depop, Vinted, Grailed, Etsy, eBay)
-- Case study brief (activation challenge)
+**Jobs-to-be-Done Framework:**
+- Primary job (main goal)
+- Secondary jobs (supporting goals)
+- Functional, emotional, social dimensions
+
+**Evidence-Guided Approach:**
+- ✅ Validated (confirmed from interviews, website, data)
+- ⚠️ To Validate (hypotheses needing data)
+- 🔮 Future (strategic opportunities)
