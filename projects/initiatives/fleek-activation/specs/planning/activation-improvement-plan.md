@@ -1,21 +1,49 @@
 # Fleek Activation Improvement Plan
 
-**Timeline:** 6 weeks
-**Resources:** 2 engineers
+**Timeline:** 6 weeks  
+**Resources:** 2 engineers  
 **Goal:** Increase first-time user activation rate
 
-**Last Updated:** February 16, 2026
+**Last Updated:** February 17, 2026
+
+---
+
+## ⚠️ CRITICAL: Data Dependency Notice
+
+**This plan is built on ASSUMPTIONS pending data validation.**
+
+**Key Assumption:** Persona 1 (Beginner Resellers) have the activation problem.
+
+**Reality:** We don't know which persona has the problem yet. Hannah said "first time users" need faster aha moment, but this could mean:
+- First-time Beginners (new to reselling)
+- First-time Scale resellers (experienced, new to Fleek)
+- First-time Wholesale retailers (shops, new to Fleek)
+
+**Data Needed:**
+1. Activation rate by persona (Beginner vs Scale vs Wholesale)
+2. Funnel drop-off points by persona
+3. Which persona the user feedback quotes came from
+4. Root cause validation (trust, budget, uncertainty - which matters most?)
+
+**How to Use This Document:**
+- Read as "IF data shows Persona 1 is the problem, THEN these solutions"
+- Solutions may be different if Persona 2 or 3 have the problem
+- Prioritization depends on data findings
+- Run data analysis (24h before interview) BEFORE implementing
 
 ---
 
 ## Executive Summary
 
-### The Problem (Validated)
+### The Problem (⚠️ ASSUMED - Needs Data Validation)
 
-**New users face three major barriers:**
-1. **Trust Deficit** (60% of problem) - Platform looks like scam, bad reviews surfaced, no visible quality control
-2. **Financial Risk** (25% of problem) - Priced out by £400-500 bundle minimums with £200 budgets
-3. **Product Uncertainty** (15% of problem) - Example photos misleading, bundle contents unclear, no personalization feedback
+**IF Persona 1 (Beginners) have activation problem, they face three major barriers:**
+1. **Trust Deficit** (⚠️ assumed 60%) - Platform looks like scam, bad reviews surfaced, no visible quality control
+2. **Financial Risk** (⚠️ assumed 25%) - Priced out by £400-500 bundle minimums with £200 budgets
+3. **Product Uncertainty** (⚠️ assumed 15%) - Example photos misleading, bundle contents unclear, no personalization feedback
+
+**Evidence:** ✅ User quotes confirm these issues exist  
+**Assumption:** ⚠️ These are THE blockers (vs other factors), and Persona 1 experiences them most
 
 **Current Experience:**
 User faces "expanse of options" → hits "trust wall" (bad reviews + blurry graphics) → abandons

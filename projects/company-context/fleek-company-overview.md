@@ -204,14 +204,16 @@ Carhartt, Ralph Lauren, Stone Island, Stussy, Nike, Burberry, Arc'Teryx, Patagon
 ## Current Challenges
 
 ### 1. Activation & Retention (PRIMARY FOCUS)
-- **Problem:** Strong acquisition but weak activation/retention
-- **Symptoms:** 
-  - Retention rates plateauing/dropping
-  - First-time users find it overwhelming, don't know where to start
+- **Problem:** Strong acquisition but weak activation/retention (Sanket)
+- **Symptoms (from Hannah):** 
+  - "Retention rates kind of plateauing, dropping a little bit over time"
+  - "Need to get our first time users to the kind of value moment or the aha moment as quickly as possible"
+  - "That first time experience and the first time purchase" needs work
   - Launched onboarding with only slight lift
   - Discovery completed but engineering pulled to AI project
-- **Impact:** "Pouring water into a leaky bucket" - acquisition scaling but not converting/retaining
+- **Impact:** Acquisition scaling but not converting/retaining
 - **Priority:** Highest-leverage problem to solve (compounds across every cohort)
+- **⚠️ Unknown:** Which user segment(s) have the problem (Beginner vs Scale vs Wholesale) - needs data
 
 ### 2. Web Platform Underinvestment
 - Currently just acquisition tool → hard push to app

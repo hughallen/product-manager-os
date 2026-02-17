@@ -3,7 +3,21 @@
 **Timeline:** 6 weeks (3 x 2-week sprints)
 **Approach:** Build → Measure → Learn cycles
 
-**Last Updated:** February 16, 2026
+**Last Updated:** February 17, 2026
+
+---
+
+## ⚠️ CRITICAL: Data Dependency Notice
+
+**These experiments assume Persona 1 (Beginner Resellers) have the activation problem.**
+
+**If data shows different persona:**
+- Persona 2 (Scale): Test bulk menswear optimization, supplier relationships, volume discounts
+- Persona 3 (Wholesale): Test desktop experience, large transaction flows, seasonal planning
+
+**Action:** Run data analysis FIRST to determine which persona, THEN run relevant experiments.
+
+**This document demonstrates experiment methodology, not final experiment plan.**
 
 ---
 

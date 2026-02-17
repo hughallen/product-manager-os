@@ -9,13 +9,18 @@
 
 ## Problem Statement
 
-New users, particularly those new to reselling, face difficulties getting started on Fleek. They find the platform overwhelming and don't know where to start. While onboarding has been launched, it has driven only a "slight lift but nothing meaningful."
+**From Hannah (PM):**
+- "Strong acquisition but weak activation/retention" (Sanket)
+- "Retention rates kind of plateauing, dropping a little bit over time"
+- "Need to get our first time users to the kind of value moment or the aha moment as quickly as possible"
+- "That first time experience and the first time purchase" needs work
+- Onboarding launched with "slight lift but nothing meaningful"
 
 **Business Impact:**
-- Strong acquisition but weak activation
-- Retention rates plateauing/dropping
-- "Pouring water into a leaky bucket" - acquisition scaling but not compounding
+- Acquisition scaling but not converting/retaining ("pouring water into a leaky bucket")
 - Revenue limited by retention, not acquisition
+
+**⚠️ Critical Unknown:** Which user segment(s) have the activation problem? Hannah said "first time users" but this could be first-time users across any of Fleek's 3 customer segments (Beginner, Scale, Wholesale). Need data to determine.
 
 ---
 
