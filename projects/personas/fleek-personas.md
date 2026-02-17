@@ -14,20 +14,39 @@
 ## Context
 
 **What I found in project files:**
-- **Existing personas:** None - creating from scratch
+- **Existing personas:** None - creating from scratch for case study
 - **Product context:** Fleek - B2B vintage wholesale marketplace (joinfleek.com)
-- **Target market:** Resellers and retailers (UK, Europe, US) sourcing from suppliers in Pakistan/India/Dubai
+- **Current user base:** 300,000+ resellers and retailers
 - **Activation challenge:** Strong acquisition, weak activation/retention
 
 **Product Overview:**
-- Two-sided marketplace: Buyers (resellers/retailers) ↔ Suppliers (Pakistan/India/Dubai)
-- B2B focus (wholesale bundles, not individual consumers)
+- Two-sided marketplace: Buyers (resellers/retailers) ↔ Suppliers (1,000+ from 10 countries)
+- B2B focus (wholesale bundles 50-10,000 items, not individual consumers)
 - Supply chain innovation: Western donations → East processing → global resale
 - AI transformation: Fleek Sort (automated grading, 100% inventory online by end March)
 - Revenue model: Commission on transactions, comes from retention not acquisition
 
-**The Problem:**
+**The Activation Problem:**
 New users (particularly new resellers) find platform "overwhelming and don't know where to start." Onboarding launched with "slight lift but nothing meaningful." Need to activate the right users who will retain.
+
+**What We Know About Current Users (From Interviews):**
+
+**Hannah's Direct Quote:**
+> "We've only really been able to cater to one [buying style], which is our kind of bulk menswear, like brand purchase journeys... A lot of our women's web buyers are very curated in the way that they purchase. They are very kind of aesthetic and style driven."
+
+**Translation:**
+1. **Current platform optimized for:** Bulk menswear buyers (Jordan-type)
+2. **Struggling to activate:** New resellers (Casey-type) - "find it overwhelming and don't know where to start"
+3. **Underserved segment:** Women's wear curators (Taylor-type) - exist but only 20-30% of revenue vs 70% market
+
+**The Case Study Focus:**
+Fix activation for **new resellers (Casey)** who are being acquired but not converting to first purchase. 
+
+**Persona Summary:**
+- **Casey (Primary Focus):** New resellers struggling to activate - THIS IS THE CASE STUDY
+- **Jordan (Current, Working):** Large retailers activating fine, secondary improvements (web UX)
+- **Taylor (Underserved):** Curated Depop/Instagram resellers - women's wear, hand-picking focus (out of scope)
+- **Riley (Target Opportunity):** Women's boutique owners - NEW COHORT representing 70% market opportunity (out of scope)
 
 ---
 
@@ -309,17 +328,22 @@ Jordan owns an established vintage clothing shop (e.g., Brooklyn vintage store) 
 
 ---
 
-# Persona 3: Women's Wear Curator (Taylor)
+# Persona 2B: Women's Wear Curator (Taylor) - FUTURE OPPORTUNITY
 
 **Role:** Curated vintage reseller (Depop, Instagram-based)  
 **Segment:** 25-35 years old, UK/Europe-based  
 **Budget:** £500-2,000/month  
 **Experience Level:** Intermediate - established aesthetic/brand  
-**Persona Type:** Buyer + User
+**Persona Type:** Buyer + User  
+**Status:** ⚠️ UNDERSERVED - Exists but platform not optimized for them
 
 ## Overview
 
-Taylor sells curated vintage on Depop/Instagram with a specific aesthetic (Y2K, cottagecore, etc.). Not interested in bulk menswear bundles - wants to hand-pick individual pieces. Fleek Sort (100% inventory online by end March) unlocks this use case, but experience not optimized yet.
+Taylor sells curated vintage on Depop/Instagram with a specific aesthetic (Y2K, cottagecore, etc.). Currently represents only 20-30% of Fleek's revenue despite women's wear being 70% of fashion market. **Not interested in bulk menswear bundles** - wants to hand-pick individual pieces. Platform hasn't been able to serve this persona effectively yet.
+
+**Key insight from Hannah:** "We've only really been able to cater to bulk menswear buyers... women's wear buyers are very curated, want 100 pieces they've specifically chosen themselves."
+
+**Fleek Sort Unlock:** Individual piece purchasing with 3 images per item (rolling out end of March) will enable Taylor's use case for the first time.
 
 **Behavioral traits:**
 - Aesthetic-driven (brand consistency matters)
@@ -331,10 +355,10 @@ Taylor sells curated vintage on Depop/Instagram with a specific aesthetic (Y2K, 
 
 | Persona | Goal | Problem | Frequency |
 |---------|------|---------|-----------|
-| Taylor | Hand-pick pieces matching aesthetic | Platform optimized for bulk, not individual selection | Weekly sourcing |
-| Taylor | Browse women's wear inventory | Women's wear underserved (70% of market, 20-30% of Fleek) | Daily browsing |
-| Taylor | Build custom bundle of curated pieces | Can't select individual items, forced into bulk bundles | Per sourcing session |
-| Taylor | Ensure authenticity for resale | Fear of fakes, need QC for Depop credibility | Every purchase |
+| Taylor | Hand-pick pieces matching aesthetic | Platform optimized for bulk only, can't select individual items | Would be weekly if possible |
+| Taylor | Browse women's wear inventory | Women's wear underserved, mostly menswear on platform | Currently limited |
+| Taylor | Build custom curated bundle | Forced into bulk bundles, can't cherry-pick specific pieces | Would do per session if possible |
+| Taylor | Ensure authenticity for resale | Need authentication for Depop credibility | Every purchase |
 
 ## Jobs-to-be-Done
 
@@ -342,7 +366,7 @@ Taylor sells curated vintage on Depop/Instagram with a specific aesthetic (Y2K, 
 - "When I need inventory for my curated shop, I want to hand-pick individual pieces that match my aesthetic, so my brand stays consistent."
 
 **Secondary:**
-- "When browsing inventory, I want to see detailed photos and item details, so I can assess fit with my aesthetic."
+- "When browsing inventory, I want to see detailed photos (3 angles) and item details, so I can assess fit with my aesthetic."
 - "When I find pieces I love, I want to purchase them individually or build custom bundles, so I'm not stuck with unwanted items."
 
 ## Goals
@@ -354,31 +378,150 @@ Taylor sells curated vintage on Depop/Instagram with a specific aesthetic (Y2K, 
 
 ## Frustrations
 
-- Platform optimized for bulk menswear, not curated women's wear
-- Can't hand-pick effectively (current experience doesn't support it)
-- Women's wear underserved (70% of fashion revenue, 20-30% of Fleek revenue)
+- **Current platform doesn't serve this persona:** Optimized for bulk menswear, not curated women's wear
+- **Can't hand-pick:** No individual item selection (yet)
+- **Women's wear underserved:** Only 20-30% of Fleek revenue despite 70% market opportunity
+
+## Behaviors (Hypothesized - Limited Data)
+
+**Triggers:**  
+- Need inventory that matches curated aesthetic
+- Depop/Instagram shop needs restocking
+
+**Current Workflow:**
+- May not use Fleek at all (not designed for them)
+- OR buys bulk and sorts out unwanted items (workaround)
+
+**Frequency:** Would be weekly if experience supported it
 
 ## Evidence
 
 ### ✅ Validated (Leadership Interviews)
 - "Women's market is 70% of fashion revenue but only 20-30% of Fleek revenue" (Hannah)
 - "Women's wear buyers are very curated... want 100 pieces they've specifically chosen themselves... very aesthetic and style driven" (Hannah)
-- "We've only been able to cater to bulk menswear buyers" (Hannah)
-- Fleek Sort enables individual piece purchasing with 3 images per item
+- **"We've only been able to cater to bulk menswear buyers"** (Hannah) - Platform not designed for Taylor yet
+- Fleek Sort (end March) will enable individual piece purchasing with 3 images per item
 
-### ⚠️ To Validate
-- What % of signups match Taylor profile?
-- Does Fleek Sort rollout (end March) unlock Taylor activation?
-- Is Taylor activation problem or acquisition problem?
+### ⚠️ Unknown - Need Data
+- What % of current signups match Taylor profile?
+- Are they dropping off during activation? Or not even trying Fleek?
+- Is this an activation problem or acquisition/product-market-fit problem?
+- Will Fleek Sort rollout unlock Taylor cohort?
 
-## Product Implications
+### 🔮 Future Persona Status
+This persona represents **future opportunity**, not current activation problem. Fleek Sort (end March 2026) will unlock hand-picking for first time, enabling Taylor use case.
+
+**For Case Study:** Taylor is NOT the primary focus (that's Casey activation). Mention as future opportunity if Fleek Sort enables new market segment.
+
+## Product Implications (Post-Fleek Sort)
 
 | Insight | Design Implication |
 |---------|-------------------|
-| Hand-pick focus | Individual item selection powered by Fleek Sort |
-| Visual discovery | Browse by aesthetic/style, not just brand/category |
-| Women's wear gap | 70% market opportunity, needs focus |
-| Curated bundles | Custom bundle builder, not fixed bundles |
+| Hand-pick focus | Individual item selection powered by Fleek Sort (end March) |
+| Visual discovery | Browse by aesthetic/style with 3 images per item |
+| Women's wear gap | 70% market opportunity unlocked by Fleek Sort |
+| Curated bundles | Custom bundle builder, not fixed bulk bundles |
+| **Timeline:** Post-March 2026 (after Fleek Sort rollout) |
+
+---
+
+# Persona 3: Female Brick-and-Mortar Shop Owner (Riley) - POTENTIAL NEW COHORT
+
+**Role:** Women's vintage boutique owner  
+**Segment:** 35-50 years old, UK/Europe/US-based  
+**Budget:** £3,000-10,000/month  
+**Experience Level:** Established business owner  
+**Persona Type:** Buyer + User  
+**Status:** 🔮 TARGET OPPORTUNITY - Not currently served well by platform
+
+## Overview
+
+Riley owns a women's vintage boutique with a physical storefront. Needs continuous inventory but with more curation than Jordan's bulk menswear approach. Represents the bridge between Jordan (large volume, less curation) and Taylor (highly curated, smaller volume). This is the demographic Hannah mentioned: women's wear is 70% of fashion market but only 20-30% of Fleek's current revenue.
+
+**Key behavioral traits:**
+- Business operator (like Jordan) but women's wear focus (like Taylor)
+- Needs volume (100-500 pieces) but with curation
+- Desktop preference for purchasing (large transactions)
+- Established relationships with suppliers
+
+**Why This Persona Matters:**
+This could be the unlock for the 70% market opportunity. Riley needs:
+- Volume (more than Taylor's hand-picking)
+- Curation (more than Jordan's bulk menswear)
+- Women's wear focus
+- Business continuity (like Jordan)
+
+## Use Scenarios (Pragmatic Format)
+
+| Persona | Goal | Problem | Frequency |
+|---------|------|---------|-----------|
+| Riley | Source curated women's wear in volume | Platform focused on bulk menswear, women's wear limited | Weekly |
+| Riley | Maintain consistent shop aesthetic | Can't filter effectively for style/era (Y2K, boho, etc.) | Per sourcing session |
+| Riley | Purchase 100-500 curated pieces | Too small for Jordan's 10k orders, too large for Taylor's hand-picking | Weekly |
+| Riley | Build supplier relationships in women's wear | Don't know which suppliers specialize in women's premium brands | Ongoing |
+
+## Jobs-to-be-Done
+
+**Primary:**
+- "When I need to restock my women's boutique, I want to source 100-500 curated pieces efficiently, so I maintain consistent aesthetic without hand-picking every item."
+
+**Secondary:**
+- "When browsing suppliers, I want to know who specializes in women's wear, so I don't waste time on menswear suppliers."
+- "When purchasing in volume, I want more curation than bulk but more efficiency than hand-picking, so I balance time and quality."
+
+## Goals
+
+- Maintain women's boutique aesthetic
+- Source volume efficiently (100-500 pieces)
+- Build supplier relationships in women's wear category
+- Compete with online-only curators (like Taylor on Depop)
+
+## Frustrations
+
+- **Platform optimized for menswear:** Bulk buyers get menswear, curators not served at scale
+- **Women's wear underserved:** Only 20-30% of platform revenue
+- **No middle ground:** Either bulk (10k items) or hand-pick (individual pieces), no curated volume option
+- **Supplier specialization unclear:** Don't know who focuses on women's wear
+
+## Evidence
+
+### ✅ Validated (Market Opportunity)
+- "Women's market is 70% of fashion revenue but only 20-30% of Fleek revenue" (Hannah)
+- Gap between market size and Fleek's capture suggests underserved segment
+- Fleek Sort (end March) enables this better by showing individual items within bundles
+
+### ⚠️ To Validate
+- Does Riley persona exist in current user base?
+- Or is this purely acquisition gap (they don't know about Fleek)?
+- Would Riley activate if women's wear inventory and curation tools existed?
+- What % of women's wear buyers are Riley vs Taylor?
+
+### 🔮 Future Opportunity
+**When unlocked:** Post-Fleek Sort rollout (end March 2026)
+**Product needs:** 
+- Women's wear category expansion
+- Curated bundles (100-500 items with aesthetic coherence)
+- Supplier specialization visibility
+- Style/era filtering
+
+**Business Impact:** Could unlock 50%+ revenue growth by capturing 70% fashion market share
+
+## Product Implications (Future)
+
+| Insight | Design Implication |
+|---------|-------------------|
+| Needs volume + curation | "Curated bundles" - 100-500 items with aesthetic coherence |
+| Women's wear focus | Category expansion, supplier specialization |
+| Desktop preference | Same as Jordan - web experience investment |
+| Supplier relationships | Who specializes in women's premium brands (not menswear) |
+
+## For Case Study
+
+**Riley is OUT OF SCOPE but important context:**
+- Represents 70% market opportunity
+- Not an activation problem (product-market-fit gap)
+- Mention as "future unlock" after Fleek Sort enables better women's wear experience
+- Shows strategic thinking: solve Casey activation now, unlock Riley market later
 
 ---
 
@@ -396,29 +539,37 @@ Taylor sells curated vintage on Depop/Instagram with a specific aesthetic (Y2K, 
 
 # Persona Comparison
 
-| Attribute | Casey (New Reseller) | Jordan (Large Retailer) | Taylor (Women's Curator) |
-|-----------|---------------------|------------------------|-------------------------|
-| **Segment** | Gen Z, 16-18 | Established, 40-60+ | Millennial, 25-35 |
-| **Budget** | £200 | £10-30k/month | £500-2k/month |
-| **Primary goal** | Start reselling business | Continuous inventory supply | Curated aesthetic inventory |
-| **Key pain** | Overwhelming + trust + priced out | Poor web experience | Can't hand-pick effectively |
-| **Behavior** | Browse-first, mobile | Search-first, desktop | Visual discovery, mobile/web |
-| **Purchase frequency** | Once (if converts) | Weekly | Weekly |
-| **Activation challenge** | **HIGH** (case study focus) | Low (activates, retains well) | Medium (needs Fleek Sort) |
-| **LTV** | Low-Medium (if they grow) | **Very High** (£10-30k/month) | Medium (£500-2k/month) |
-| **Revenue timing** | Future (if activate + retain) | **Now** (already high-value) | Opportunity (70% market) |
+| Attribute | Casey (New Reseller) | Jordan (Large Retailer) | Taylor (Curated Reseller) | Riley (Women's Boutique) |
+|-----------|---------------------|------------------------|-------------------------|------------------------|
+| **Status** | 🔴 Current - activation problem | ✅ Current - high retention | ⚠️ Underserved | 🔮 Target opportunity |
+| **Segment** | Gen Z, 16-18 | Established, 40-60+ | Millennial, 25-35 | Established, 35-50 |
+| **Budget** | £200 | £10-30k/month | £500-2k/month | £3-10k/month |
+| **Business type** | Starting reselling | Established retail/market | Depop/Instagram curator | Physical boutique |
+| **Primary goal** | Start reselling business | Continuous menswear supply | Curated aesthetic inventory | Curated women's wear volume |
+| **Key pain** | Overwhelming + trust + priced out | Poor web experience | Platform not built for hand-picking | Women's wear underserved |
+| **Behavior** | Browse-first, mobile | Search-first, desktop | Visual discovery, mobile/web | Search-first, desktop |
+| **Current usage** | Drop off before first purchase | Weekly, high retention | Low/none | Unknown (may not exist) |
+| **Activation challenge** | **HIGH** (case study focus) | ✅ Low (activates well) | N/A (PMF gap) | N/A (PMF gap) |
+| **LTV** | Low-Medium (if they grow) | **Very High** (£10-30k/month) | Medium (£500-2k/month) | High (£3-10k/month) |
+| **Revenue** | Future (if activate + retain) | **Now** (already high-value) | **Opportunity** (70% market) | **Opportunity** (70% market) |
+| **Case study relevance** | PRIMARY FOCUS | Secondary (web UX) | Out of scope (future) | Out of scope (future) |
 
 ---
 
-# Activation Problem - Root Causes (Hypothesized, To Validate)
+# Activation Problem - Root Causes (Casey Focus)
 
 ## Current Understanding
 
-**From leadership:**
+**The Problem (From Leadership):**
 - "Strong acquisition but weak activation/retention"
-- "New users find it overwhelming and don't know where to start"
+- **"New users, particularly those new to reselling entirely,"** find it overwhelming (Hannah)
 - "Onboarding launched with slight lift but nothing meaningful"
 - "Pouring water into a leaky bucket"
+
+**Who Has the Problem:**
+- **Primary:** Casey (new resellers) - confirmed activation struggle
+- **Secondary:** Possibly Jordan (if desktop experience blocks activation)
+- **Out of Scope:** Taylor (women's wear) - not an activation problem, it's a product-market-fit gap (platform not built for hand-picking yet)
 
 **User feedback themes (see [`fleek-user-feedback-mapping.md`](./fleek-user-feedback-mapping.md)):**
 
@@ -431,9 +582,9 @@ Taylor sells curated vintage on Depop/Instagram with a specific aesthetic (Y2K, 
 ## Critical Unknowns (Need Data to Answer)
 
 **Persona Validation:**
-1. What % of signups match Casey vs Jordan vs Taylor profile?
-2. Which persona has the activation problem?
-3. Is it one persona or all personas?
+1. What % of signups match Casey vs Jordan vs Taylor/Riley profile?
+2. Which persona has the activation problem? (Hypothesis: primarily Casey)
+3. Do Taylor/Riley personas exist in user base, or is it acquisition gap?
 
 **Funnel Diagnosis:**
 4. Where do users drop off? (Signup → Onboarding → Browse → Cart → Checkout)
