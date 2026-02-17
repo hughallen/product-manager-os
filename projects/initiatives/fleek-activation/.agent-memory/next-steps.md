@@ -25,29 +25,23 @@
 
 ---
 
-### 2. Decide on File Organization Approach 🤔
+### 2. File Organization ✅ COMPLETED
 **Priority:** High  
-**Status:** Blocked - need Hugh's decision
+**Status:** ✅ Resolved - February 17, 2026
 
-**Question:** Should personas be:
-- **Option A:** Company-wide (`projects/product-artifacts/personas/`) because they're reusable across initiatives?
-- **Option B:** Initiative-specific (`projects/initiatives/fleek-activation/personas/`) per AGENTS.md dual-track?
-- **Option C:** Both (company-wide for reference, initiative-specific for work)?
+**Decision:** Personas moved to `projects/product-artifacts/personas/` to align with jinjin1 structure
 
-**Current State:** Personas moved to `projects/product-artifacts/personas/` per jinjin1 structure
+**Rationale:**
+- Personas are product-level artifacts (like feedback, metrics)
+- Reusable across initiatives
+- Aligns with original jinjin1 structure
+- Competitors kept at project level per Hugh's preference
 
-**AGENTS.md says:**
-- Company-wide context goes in `projects/company-context/`
-- Initiative work goes in `projects/initiatives/[name]/`
-- Dual-track structure has discovery → opportunities/solutions, delivery → specs/designs
-
-**Trade-offs:**
-- Company-wide: Reusable, single source of truth, but doesn't follow initiative structure
-- Initiative-specific: Follows AGENTS.md, but duplicates if multiple initiatives need personas
-
-**Recommendation:** Keep personas company-wide for now (they're broader than just activation problem), but create initiative-specific research in proper dual-track folders
-
-**Action needed:** Hugh confirms approach
+**Completed:**
+- ✅ Moved `projects/personas/` → `projects/product-artifacts/personas/`
+- ✅ Updated all 8 file references
+- ✅ Documented in README.md structure
+- ✅ Committed and pushed to GitHub
 
 ---
 

@@ -95,15 +95,24 @@
 ### What Went Wrong
 1. **Didn't read AGENTS.md first** - Skipped onboarding, violated core principles
 2. **Didn't follow strategic copilot** - Made assumptions instead of asking clarifying questions
-3. **Fabricated evidence** - Created quotes that don't exist in source material
-4. **Assumed without flagging** - Stated hypotheses as facts
+3. **Fabricated evidence** - Created quotes that don't exist in source material ("New users find it overwhelming")
+4. **Assumed without flagging** - Stated "Persona 1 has activation problem" as fact when evidence was ambiguous
+5. **Used skill without core principles** - Jumped to persona-generator.mdc without strategic copilot guardrails
 
 ### What to Do Differently
 1. **Always start with AGENTS.md** when encountering new workspace
-2. **Read alwaysApply: true files** (strategic copilot) before any work
-3. **Use evidence markers** (✅ ⚠️ ❓) on every claim
-4. **Ask clarifying questions** when uncertain rather than assume
-5. **Check source material** - Only cite actual quotes
+2. **Activate strategic copilot (alwaysApply: true)** before any work
+3. **Follow hierarchy:** AGENTS → Strategic Copilot → Core Workflow → Skill (if needed)
+4. **Use evidence markers** (✅ ⚠️ ❓) on every claim
+5. **Ask clarifying questions** when uncertain rather than assume
+6. **Check source material** - Only cite actual quotes
+7. **Skills are tools, not shortcuts** - Keep core principles active when using skills
+
+### Documentation Updates Made
+- **AGENTS.md** now includes explicit File Hierarchy section (Core vs Skills)
+- **AGENTS.md** now documents this Fleek session as learning example
+- **Getting Started** rewritten with 8-step onboarding emphasizing strategic copilot
+- Future AI sessions will see these guardrails immediately
 
 ---
 
