@@ -61,6 +61,8 @@ See [`pm-toolkit/README.md`](pm-toolkit/README.md) for detailed tool catalog.
   - `roadmap/`: Quarterly roadmaps and strategic planning
   - `backlog/`: Engineering and discovery backlogs
   - `feedback/`: Centralized customer feedback and themes
+  - `personas/`: User and buyer personas
+  - `metrics/`: Product metrics frameworks
 - **company-context/**: Your company documentation
   - `strategy/`: Your actual strategy documents
   - `okrs/`: Your actual OKRs and goals

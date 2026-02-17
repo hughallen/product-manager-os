@@ -97,8 +97,8 @@ Major course correction after realizing violations of AGENTS.md principles:
 - `projects/meetings/1-1 notes/Sanket.md` - Founder interview transcript
 
 ### Personas & Research
-- `projects/personas/fleek-personas.md` - 4 personas with evidence markers
-- `projects/personas/fleek-user-feedback-mapping.md` - Feedback mapped to personas (older version, may need update)
+- `projects/product-artifacts/personas/fleek-personas.md` - 4 personas with evidence markers
+- `projects/product-artifacts/personas/fleek-user-feedback-mapping.md` - Feedback mapped to personas (older version, may need update)
 
 ### Competitive Analysis
 - `projects/competitors/fleek-competitive-analysis.md` - Competitive landscape

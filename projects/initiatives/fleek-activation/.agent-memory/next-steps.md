@@ -30,11 +30,11 @@
 **Status:** Blocked - need Hugh's decision
 
 **Question:** Should personas be:
-- **Option A:** Company-wide (`projects/personas/`) because they're reusable across initiatives?
+- **Option A:** Company-wide (`projects/product-artifacts/personas/`) because they're reusable across initiatives?
 - **Option B:** Initiative-specific (`projects/initiatives/fleek-activation/personas/`) per AGENTS.md dual-track?
 - **Option C:** Both (company-wide for reference, initiative-specific for work)?
 
-**Current State:** Personas are in `projects/personas/` (company-wide)
+**Current State:** Personas moved to `projects/product-artifacts/personas/` per jinjin1 structure
 
 **AGENTS.md says:**
 - Company-wide context goes in `projects/company-context/`

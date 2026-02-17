@@ -475,5 +475,5 @@ Review these competitors in priority order:
 ## References
 
 - Fleek UX audit: [`/projects/initiatives/fleek-activation/ux-analysis/fleek-current-state.md`](../initiatives/fleek-activation/ux-analysis/fleek-current-state.md)
-- User feedback: [`/projects/personas/fleek-user-feedback-mapping.md`](../personas/fleek-user-feedback-mapping.md)
+- User feedback: [`/projects/product-artifacts/personas/fleek-user-feedback-mapping.md`](../product-artifacts/personas/fleek-user-feedback-mapping.md)
 - Screenshots: `design-references/` folder (not in git)

@@ -31,6 +31,8 @@ This folder contains all your active, continuous product management work - as op
 - `roadmap/` - Quarterly roadmaps, strategic plans
 - `backlog/` - Engineering and discovery backlogs
 - `feedback/` - Centralized customer feedback and themes
+- `personas/` - User and buyer personas
+- `metrics/` - Product metrics frameworks
 
 **Key documents:**
 - Roadmaps showing what's coming

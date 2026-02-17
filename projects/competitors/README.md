@@ -129,6 +129,6 @@ Many PM toolkit skills read from this folder to:
 - **Industry analysts** - Gartner, Forrester reports on your category
 
 ## Related
-- See `projects/personas/` for target customer profiles
+- See `projects/product-artifacts/personas/` for target customer profiles
 - See `projects/company-context/strategy/` for your strategic positioning
 - See `projects/product-artifacts/` for roadmap and differentiation features

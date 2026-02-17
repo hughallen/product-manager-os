@@ -431,6 +431,6 @@ User sees personalized, curated options → clear quality signals → confident 
 
 - UX audit: [`ux-analysis/fleek-current-state.md`](../ux-analysis/fleek-current-state.md)
 - Competitor patterns: [`/projects/competitors/ux-patterns-benchmarking.md`](../../competitors/ux-patterns-benchmarking.md)
-- User feedback: [`/projects/personas/fleek-user-feedback-mapping.md`](../../personas/fleek-user-feedback-mapping.md)
+- User feedback: [`/projects/product-artifacts/personas/fleek-user-feedback-mapping.md`](../../../product-artifacts/personas/fleek-user-feedback-mapping.md)
 - Experiments: [`planning/experiment-ideas.md`](./experiment-ideas.md)
 - Metrics: [`/projects/product-artifacts/metrics/fleek-activation-metrics.md`](../../product-artifacts/metrics/fleek-activation-metrics.md)

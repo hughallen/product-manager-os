@@ -382,6 +382,6 @@ Instead of narrowing toward a purchase, user hits "expanse of options" followed 
 
 ## References
 
-- User feedback: [`/projects/personas/fleek-user-feedback-mapping.md`](../../personas/fleek-user-feedback-mapping.md)
+- User feedback: [`/projects/product-artifacts/personas/fleek-user-feedback-mapping.md`](../../../../product-artifacts/personas/fleek-user-feedback-mapping.md)
 - Competitor patterns: [`/projects/competitors/ux-patterns-benchmarking.md`](../../competitors/ux-patterns-benchmarking.md)
 - Company context: [`/projects/company-context/fleek-company-overview.md`](../../company-context/fleek-company-overview.md)

@@ -57,8 +57,8 @@ Increase first-time user activation (completing first purchase within 30 days)
 ## Key Artifacts
 
 ### Research & Analysis
-- [`/projects/personas/fleek-personas.md`](../../personas/fleek-personas.md) - User personas (Casey, Jordan, Taylor)
-- [`/projects/personas/fleek-user-feedback-mapping.md`](../../personas/fleek-user-feedback-mapping.md) - Qualitative feedback mapped to personas
+- [`/projects/product-artifacts/personas/fleek-personas.md`](../../product-artifacts/personas/fleek-personas.md) - User personas (Casey, Jordan, Taylor)
+- [`/projects/product-artifacts/personas/fleek-user-feedback-mapping.md`](../../product-artifacts/personas/fleek-user-feedback-mapping.md) - Qualitative feedback mapped to personas
 - [`/projects/company-context/fleek-company-overview.md`](../../company-context/fleek-company-overview.md) - Company and market context
 - [`/projects/competitors/fleek-competitive-analysis.md`](../../competitors/fleek-competitive-analysis.md) - Competitive landscape
 

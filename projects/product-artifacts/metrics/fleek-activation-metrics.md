@@ -581,7 +581,7 @@ Repeat Rate = (Users with 2+ purchases / Users with 1+ purchase) * 100
 - Initiative overview: [`/projects/initiatives/fleek-activation/README.md`](../../initiatives/fleek-activation/README.md)
 - Improvement plan: [`/projects/initiatives/fleek-activation/planning/activation-improvement-plan.md`](../../initiatives/fleek-activation/planning/activation-improvement-plan.md)
 - Experiments: [`/projects/initiatives/fleek-activation/planning/experiment-ideas.md`](../../initiatives/fleek-activation/planning/experiment-ideas.md)
-- User feedback: [`/projects/personas/fleek-user-feedback-mapping.md`](../../personas/fleek-user-feedback-mapping.md)
+- User feedback: [`/projects/product-artifacts/personas/fleek-user-feedback-mapping.md`](../personas/fleek-user-feedback-mapping.md)
 
 ---
 
