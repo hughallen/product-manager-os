@@ -5,3 +5,4 @@
 # Design reference screenshots (too large for git)
 projects/initiatives/**/ux-analysis/screenshots/
 **/design-references/
+**/query-analysis/
